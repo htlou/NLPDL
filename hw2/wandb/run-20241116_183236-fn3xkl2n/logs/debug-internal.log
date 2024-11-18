@@ -1,0 +1,21 @@
+{"time":"2024-11-16T18:32:36.706809911Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T18:32:36.70685984Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241116_183236-fn3xkl2n/logs/debug-core.log"}
+{"time":"2024-11-16T18:32:36.717420947Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-16T18:32:36.747834344Z","level":"INFO","msg":"created new stream","id":"fn3xkl2n"}
+{"time":"2024-11-16T18:32:36.747920234Z","level":"INFO","msg":"stream: started","id":"fn3xkl2n"}
+{"time":"2024-11-16T18:32:36.747933285Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:32:36.747987037Z","level":"INFO","msg":"sender: started","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:32:36.748071684Z","level":"INFO","msg":"handler: started","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:32:37.258285986Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T18:32:37.264931014Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T18:33:05.564948041Z","level":"INFO","msg":"stream: closing","id":"fn3xkl2n"}
+{"time":"2024-11-16T18:33:05.565176117Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T18:33:05.592898366Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T18:33:05.862160917Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-16T18:33:05.862193086Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-16T18:33:05.862202936Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-16T18:33:07.107032976Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-16T18:33:07.537822644Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:33:07.537916187Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:33:07.537960831Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"fn3xkl2n"}}
+{"time":"2024-11-16T18:33:07.54071356Z","level":"INFO","msg":"stream: closed","id":"fn3xkl2n"}

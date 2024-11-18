@@ -1,0 +1,16 @@
+{"time":"2024-11-16T19:34:58.11023966Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T19:34:58.110286358Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_193458-g5j9n0fk/logs/debug-core.log"}
+{"time":"2024-11-16T19:34:58.134274599Z","level":"INFO","msg":"created new stream","id":"g5j9n0fk"}
+{"time":"2024-11-16T19:34:58.134333244Z","level":"INFO","msg":"stream: started","id":"g5j9n0fk"}
+{"time":"2024-11-16T19:34:58.134368043Z","level":"INFO","msg":"handler: started","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:34:58.134366433Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:34:58.134396638Z","level":"INFO","msg":"sender: started","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:34:58.147369662Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T19:34:58.195266896Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T19:38:16.827247422Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T19:38:16.854600737Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T19:38:17.875974085Z","level":"INFO","msg":"stream: closing","id":"g5j9n0fk"}
+{"time":"2024-11-16T19:38:17.876005888Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:38:17.876064464Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:38:17.876167089Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"g5j9n0fk"}}
+{"time":"2024-11-16T19:38:17.880225075Z","level":"INFO","msg":"stream: closed","id":"g5j9n0fk"}

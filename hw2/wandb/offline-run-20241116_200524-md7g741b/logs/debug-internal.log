@@ -1,0 +1,16 @@
+{"time":"2024-11-16T20:05:24.104366538Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T20:05:24.104411462Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_200524-md7g741b/logs/debug-core.log"}
+{"time":"2024-11-16T20:05:24.134617421Z","level":"INFO","msg":"created new stream","id":"md7g741b"}
+{"time":"2024-11-16T20:05:24.134702659Z","level":"INFO","msg":"stream: started","id":"md7g741b"}
+{"time":"2024-11-16T20:05:24.134728971Z","level":"INFO","msg":"handler: started","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:05:24.134745617Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:05:24.134796787Z","level":"INFO","msg":"sender: started","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:05:24.152733289Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T20:05:24.158852365Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T20:07:52.88724798Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T20:07:52.917357229Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T20:07:53.940595156Z","level":"INFO","msg":"stream: closing","id":"md7g741b"}
+{"time":"2024-11-16T20:07:53.940643539Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:07:53.940716138Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:07:53.940710997Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"md7g741b"}}
+{"time":"2024-11-16T20:07:53.945264171Z","level":"INFO","msg":"stream: closed","id":"md7g741b"}

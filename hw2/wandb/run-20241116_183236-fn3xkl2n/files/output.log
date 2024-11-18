@@ -1,0 +1,48 @@
+[2024-11-16 18:32:39,729] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+11/16/2024 18:32:40 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmpn2rqqr3g/test.c -o /tmp/tmpn2rqqr3g/test.o
+11/16/2024 18:32:40 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmpn2rqqr3g/test.o -laio -o /tmp/tmpn2rqqr3g/a.out
+11/16/2024 18:32:40 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmp5f_a3k5f/test.c -o /tmp/tmp5f_a3k5f/test.o
+11/16/2024 18:32:41 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmp5f_a3k5f/test.o -L/data/align-anything/miniconda3/envs/hantao_cham -L/data/align-anything/miniconda3/envs/hantao_cham/lib64 -lcufile -o /tmp/tmp5f_a3k5f/a.out
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                                                                                 | 0/135 [00:00<?, ?it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 20%|██████████████████████████████▍                                                                                                                         | 27/135 [00:18<00:43,  2.51it/s]Traceback (most recent call last):
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 163, in <module>██████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.10it/s]
+    main()
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 160, in main
+    train_and_evaluate(data_args, model_args, training_args)
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 131, in train_and_evaluate
+    train_result = trainer.train()
+                   ^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2376, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2804, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2761, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 3666, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 3956, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 97, in compute_metrics
+    predictions = np.argmax(predictions, axis=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 1229, in argmax
+    return _wrapfunc(a, 'argmax', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 56, in _wrapfunc
+    return _wrapit(obj, method, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 45, in _wrapit
+    result = getattr(asarray(obj), method)(*args, **kwds)
+                     ^^^^^^^^^^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.

@@ -1,0 +1,665 @@
+2024-10-15 16:59:00,125 - INFO - loading Word2Vec object from models/word2vec_embedding_256.model
+2024-10-15 16:59:00,150 - INFO - loading wv recursively from models/word2vec_embedding_256.model.wv.* with mmap=None
+2024-10-15 16:59:00,151 - INFO - setting ignored attribute cum_table to None
+2024-10-15 16:59:00,244 - INFO - Word2Vec lifecycle event {'fname': 'models/word2vec_embedding_256.model', 'datetime': '2024-10-15T16:59:00.242168', 'gensim': '4.3.3', 'python': '3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]', 'platform': 'Linux-5.4.0-144-generic-x86_64-with-glibc2.31', 'event': 'loaded'}
+2024-10-15 17:00:03,660 - INFO - Epoch: 1
+2024-10-15 17:00:03,661 - INFO - 	Train Loss: 6.062
+2024-10-15 17:00:03,661 - INFO - 	 Val. Loss: 5.753 |  Val. BLEU: 0.00 | Val. Perplexity: 314.99
+2024-10-15 17:01:04,526 - INFO - Epoch: 2
+2024-10-15 17:01:04,527 - INFO - 	Train Loss: 5.340
+2024-10-15 17:01:04,527 - INFO - 	 Val. Loss: 5.272 |  Val. BLEU: 0.00 | Val. Perplexity: 194.73
+2024-10-15 17:02:07,592 - INFO - Epoch: 3
+2024-10-15 17:02:07,592 - INFO - 	Train Loss: 4.719
+2024-10-15 17:02:07,592 - INFO - 	 Val. Loss: 4.818 |  Val. BLEU: 0.01 | Val. Perplexity: 123.76
+2024-10-15 17:03:08,961 - INFO - Epoch: 4
+2024-10-15 17:03:08,961 - INFO - 	Train Loss: 4.142
+2024-10-15 17:03:08,961 - INFO - 	 Val. Loss: 4.528 |  Val. BLEU: 0.02 | Val. Perplexity: 92.60
+2024-10-15 17:04:11,386 - INFO - Epoch: 5
+2024-10-15 17:04:11,386 - INFO - 	Train Loss: 3.656
+2024-10-15 17:04:11,386 - INFO - 	 Val. Loss: 4.332 |  Val. BLEU: 0.03 | Val. Perplexity: 76.08
+2024-10-15 17:05:13,886 - INFO - Epoch: 6
+2024-10-15 17:05:13,886 - INFO - 	Train Loss: 3.270
+2024-10-15 17:05:13,886 - INFO - 	 Val. Loss: 4.195 |  Val. BLEU: 0.04 | Val. Perplexity: 66.37
+2024-10-15 17:06:16,705 - INFO - Epoch: 7
+2024-10-15 17:06:16,706 - INFO - 	Train Loss: 2.960
+2024-10-15 17:06:16,706 - INFO - 	 Val. Loss: 4.124 |  Val. BLEU: 0.04 | Val. Perplexity: 61.83
+2024-10-15 17:07:18,307 - INFO - Epoch: 8
+2024-10-15 17:07:18,308 - INFO - 	Train Loss: 2.708
+2024-10-15 17:07:18,308 - INFO - 	 Val. Loss: 4.074 |  Val. BLEU: 0.05 | Val. Perplexity: 58.77
+2024-10-15 17:08:20,004 - INFO - Epoch: 9
+2024-10-15 17:08:20,004 - INFO - 	Train Loss: 2.506
+2024-10-15 17:08:20,004 - INFO - 	 Val. Loss: 4.040 |  Val. BLEU: 0.06 | Val. Perplexity: 56.80
+2024-10-15 17:09:21,721 - INFO - Epoch: 10
+2024-10-15 17:09:21,722 - INFO - 	Train Loss: 2.347
+2024-10-15 17:09:21,722 - INFO - 	 Val. Loss: 4.020 |  Val. BLEU: 0.06 | Val. Perplexity: 55.72
+2024-10-15 17:10:22,219 - INFO - Epoch: 11
+2024-10-15 17:10:22,220 - INFO - 	Train Loss: 2.213
+2024-10-15 17:10:22,220 - INFO - 	 Val. Loss: 4.020 |  Val. BLEU: 0.07 | Val. Perplexity: 55.70
+2024-10-15 17:11:22,961 - INFO - Epoch: 12
+2024-10-15 17:11:22,962 - INFO - 	Train Loss: 2.096
+2024-10-15 17:11:22,962 - INFO - 	 Val. Loss: 4.036 |  Val. BLEU: 0.07 | Val. Perplexity: 56.60
+2024-10-15 17:12:23,574 - INFO - Epoch: 13
+2024-10-15 17:12:23,575 - INFO - 	Train Loss: 2.002
+2024-10-15 17:12:23,575 - INFO - 	 Val. Loss: 4.032 |  Val. BLEU: 0.08 | Val. Perplexity: 56.37
+2024-10-15 17:13:23,717 - INFO - Epoch: 14
+2024-10-15 17:13:23,718 - INFO - 	Train Loss: 1.916
+2024-10-15 17:13:23,718 - INFO - 	 Val. Loss: 4.047 |  Val. BLEU: 0.09 | Val. Perplexity: 57.23
+2024-10-15 17:14:25,547 - INFO - Epoch: 15
+2024-10-15 17:14:25,547 - INFO - 	Train Loss: 1.834
+2024-10-15 17:14:25,547 - INFO - 	 Val. Loss: 4.050 |  Val. BLEU: 0.09 | Val. Perplexity: 57.40
+2024-10-15 17:15:26,887 - INFO - Epoch: 16
+2024-10-15 17:15:26,887 - INFO - 	Train Loss: 1.765
+2024-10-15 17:15:26,887 - INFO - 	 Val. Loss: 4.077 |  Val. BLEU: 0.09 | Val. Perplexity: 58.98
+2024-10-15 17:16:27,129 - INFO - Epoch: 17
+2024-10-15 17:16:27,130 - INFO - 	Train Loss: 1.703
+2024-10-15 17:16:27,130 - INFO - 	 Val. Loss: 4.093 |  Val. BLEU: 0.10 | Val. Perplexity: 59.91
+2024-10-15 17:17:27,736 - INFO - Epoch: 18
+2024-10-15 17:17:27,737 - INFO - 	Train Loss: 1.640
+2024-10-15 17:17:27,737 - INFO - 	 Val. Loss: 4.107 |  Val. BLEU: 0.10 | Val. Perplexity: 60.74
+2024-10-15 17:18:29,227 - INFO - Epoch: 19
+2024-10-15 17:18:29,228 - INFO - 	Train Loss: 1.591
+2024-10-15 17:18:29,228 - INFO - 	 Val. Loss: 4.118 |  Val. BLEU: 0.10 | Val. Perplexity: 61.47
+2024-10-15 17:19:29,952 - INFO - Epoch: 20
+2024-10-15 17:19:29,952 - INFO - 	Train Loss: 1.547
+2024-10-15 17:19:29,952 - INFO - 	 Val. Loss: 4.174 |  Val. BLEU: 0.10 | Val. Perplexity: 64.98
+2024-10-15 17:20:30,075 - INFO - Epoch: 21
+2024-10-15 17:20:30,075 - INFO - 	Train Loss: 1.490
+2024-10-15 17:20:30,076 - INFO - 	 Val. Loss: 4.182 |  Val. BLEU: 0.11 | Val. Perplexity: 65.50
+2024-10-15 17:21:30,839 - INFO - Epoch: 22
+2024-10-15 17:21:30,839 - INFO - 	Train Loss: 1.450
+2024-10-15 17:21:30,839 - INFO - 	 Val. Loss: 4.225 |  Val. BLEU: 0.11 | Val. Perplexity: 68.35
+2024-10-15 17:22:31,707 - INFO - Epoch: 23
+2024-10-15 17:22:31,708 - INFO - 	Train Loss: 1.417
+2024-10-15 17:22:31,708 - INFO - 	 Val. Loss: 4.246 |  Val. BLEU: 0.11 | Val. Perplexity: 69.81
+2024-10-15 17:23:31,702 - INFO - Epoch: 24
+2024-10-15 17:23:31,703 - INFO - 	Train Loss: 1.373
+2024-10-15 17:23:31,703 - INFO - 	 Val. Loss: 4.248 |  Val. BLEU: 0.11 | Val. Perplexity: 69.96
+2024-10-15 17:24:33,369 - INFO - Epoch: 25
+2024-10-15 17:24:33,369 - INFO - 	Train Loss: 1.343
+2024-10-15 17:24:33,369 - INFO - 	 Val. Loss: 4.288 |  Val. BLEU: 0.12 | Val. Perplexity: 72.83
+2024-10-15 17:25:34,674 - INFO - Epoch: 26
+2024-10-15 17:25:34,675 - INFO - 	Train Loss: 1.308
+2024-10-15 17:25:34,675 - INFO - 	 Val. Loss: 4.317 |  Val. BLEU: 0.12 | Val. Perplexity: 74.96
+2024-10-15 17:26:35,359 - INFO - Epoch: 27
+2024-10-15 17:26:35,360 - INFO - 	Train Loss: 1.278
+2024-10-15 17:26:35,360 - INFO - 	 Val. Loss: 4.364 |  Val. BLEU: 0.12 | Val. Perplexity: 78.60
+2024-10-15 17:27:36,404 - INFO - Epoch: 28
+2024-10-15 17:27:36,405 - INFO - 	Train Loss: 1.252
+2024-10-15 17:27:36,405 - INFO - 	 Val. Loss: 4.373 |  Val. BLEU: 0.12 | Val. Perplexity: 79.25
+2024-10-15 17:28:39,294 - INFO - Epoch: 29
+2024-10-15 17:28:39,295 - INFO - 	Train Loss: 1.232
+2024-10-15 17:28:39,295 - INFO - 	 Val. Loss: 4.384 |  Val. BLEU: 0.13 | Val. Perplexity: 80.15
+2024-10-15 17:29:39,669 - INFO - Epoch: 30
+2024-10-15 17:29:39,669 - INFO - 	Train Loss: 1.201
+2024-10-15 17:29:39,669 - INFO - 	 Val. Loss: 4.396 |  Val. BLEU: 0.13 | Val. Perplexity: 81.10
+2024-10-15 17:29:54,206 - INFO - Test Loss: 4.488 | Test BLEU: 0.12 | Test Perplexity: 88.96
+2024-10-15 17:29:54,215 - INFO - Japanese input: こんにちは
+2024-10-15 17:29:54,215 - INFO - English translation: 
+2024-10-15 17:38:09,268 - INFO - loading Word2Vec object from models/word2vec_embedding_256.model
+2024-10-15 17:38:09,293 - INFO - loading wv recursively from models/word2vec_embedding_256.model.wv.* with mmap=None
+2024-10-15 17:38:09,293 - INFO - setting ignored attribute cum_table to None
+2024-10-15 17:38:09,398 - INFO - Word2Vec lifecycle event {'fname': 'models/word2vec_embedding_256.model', 'datetime': '2024-10-15T17:38:09.396437', 'gensim': '4.3.3', 'python': '3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]', 'platform': 'Linux-5.4.0-144-generic-x86_64-with-glibc2.31', 'event': 'loaded'}
+2024-10-15 17:39:12,534 - INFO - Epoch: 1
+2024-10-15 17:39:12,535 - INFO - 	Train Loss: 6.531
+2024-10-15 17:39:12,535 - INFO - 	 Val. Loss: 6.073 |  Val. BLEU: 0.00 | Val. Perplexity: 433.95
+2024-10-15 17:40:14,164 - INFO - Epoch: 2
+2024-10-15 17:40:14,165 - INFO - 	Train Loss: 5.969
+2024-10-15 17:40:14,165 - INFO - 	 Val. Loss: 6.003 |  Val. BLEU: 0.00 | Val. Perplexity: 404.58
+2024-10-15 17:41:18,030 - INFO - Epoch: 3
+2024-10-15 17:41:18,031 - INFO - 	Train Loss: 5.851
+2024-10-15 17:41:18,031 - INFO - 	 Val. Loss: 5.898 |  Val. BLEU: 0.00 | Val. Perplexity: 364.17
+2024-10-15 17:42:17,919 - INFO - Epoch: 4
+2024-10-15 17:42:17,920 - INFO - 	Train Loss: 5.711
+2024-10-15 17:42:17,920 - INFO - 	 Val. Loss: 5.783 |  Val. BLEU: 0.00 | Val. Perplexity: 324.85
+2024-10-15 17:43:18,155 - INFO - Epoch: 5
+2024-10-15 17:43:18,156 - INFO - 	Train Loss: 5.572
+2024-10-15 17:43:18,156 - INFO - 	 Val. Loss: 5.669 |  Val. BLEU: 0.00 | Val. Perplexity: 289.84
+2024-10-15 17:44:19,377 - INFO - Epoch: 6
+2024-10-15 17:44:19,377 - INFO - 	Train Loss: 5.422
+2024-10-15 17:44:19,377 - INFO - 	 Val. Loss: 5.542 |  Val. BLEU: 0.00 | Val. Perplexity: 255.23
+2024-10-15 17:45:19,974 - INFO - Epoch: 7
+2024-10-15 17:45:19,974 - INFO - 	Train Loss: 5.272
+2024-10-15 17:45:19,974 - INFO - 	 Val. Loss: 5.427 |  Val. BLEU: 0.00 | Val. Perplexity: 227.56
+2024-10-15 17:46:20,914 - INFO - Epoch: 8
+2024-10-15 17:46:20,915 - INFO - 	Train Loss: 5.134
+2024-10-15 17:46:20,915 - INFO - 	 Val. Loss: 5.338 |  Val. BLEU: 0.00 | Val. Perplexity: 208.10
+2024-10-15 17:47:22,215 - INFO - Epoch: 9
+2024-10-15 17:47:22,216 - INFO - 	Train Loss: 5.008
+2024-10-15 17:47:22,216 - INFO - 	 Val. Loss: 5.248 |  Val. BLEU: 0.00 | Val. Perplexity: 190.11
+2024-10-15 17:48:24,188 - INFO - Epoch: 10
+2024-10-15 17:48:24,189 - INFO - 	Train Loss: 4.895
+2024-10-15 17:48:24,189 - INFO - 	 Val. Loss: 5.181 |  Val. BLEU: 0.00 | Val. Perplexity: 177.90
+2024-10-15 17:49:24,682 - INFO - Epoch: 11
+2024-10-15 17:49:24,683 - INFO - 	Train Loss: 4.791
+2024-10-15 17:49:24,683 - INFO - 	 Val. Loss: 5.117 |  Val. BLEU: 0.00 | Val. Perplexity: 166.88
+2024-10-15 17:50:25,028 - INFO - Epoch: 12
+2024-10-15 17:50:25,029 - INFO - 	Train Loss: 4.695
+2024-10-15 17:50:25,029 - INFO - 	 Val. Loss: 5.058 |  Val. BLEU: 0.00 | Val. Perplexity: 157.25
+2024-10-15 17:51:26,566 - INFO - Epoch: 13
+2024-10-15 17:51:26,566 - INFO - 	Train Loss: 4.600
+2024-10-15 17:51:26,566 - INFO - 	 Val. Loss: 5.006 |  Val. BLEU: 0.00 | Val. Perplexity: 149.31
+2024-10-15 17:52:26,934 - INFO - Epoch: 14
+2024-10-15 17:52:26,935 - INFO - 	Train Loss: 4.521
+2024-10-15 17:52:26,935 - INFO - 	 Val. Loss: 4.957 |  Val. BLEU: 0.00 | Val. Perplexity: 142.21
+2024-10-15 17:53:27,846 - INFO - Epoch: 15
+2024-10-15 17:53:27,846 - INFO - 	Train Loss: 4.435
+2024-10-15 17:53:27,846 - INFO - 	 Val. Loss: 4.913 |  Val. BLEU: 0.00 | Val. Perplexity: 136.02
+2024-10-15 17:54:29,467 - INFO - Epoch: 16
+2024-10-15 17:54:29,467 - INFO - 	Train Loss: 4.355
+2024-10-15 17:54:29,467 - INFO - 	 Val. Loss: 4.880 |  Val. BLEU: 0.00 | Val. Perplexity: 131.62
+2024-10-15 17:55:30,800 - INFO - Epoch: 17
+2024-10-15 17:55:30,801 - INFO - 	Train Loss: 4.280
+2024-10-15 17:55:30,801 - INFO - 	 Val. Loss: 4.835 |  Val. BLEU: 0.00 | Val. Perplexity: 125.82
+2024-10-15 17:56:33,332 - INFO - Epoch: 18
+2024-10-15 17:56:33,333 - INFO - 	Train Loss: 4.207
+2024-10-15 17:56:33,333 - INFO - 	 Val. Loss: 4.792 |  Val. BLEU: 0.01 | Val. Perplexity: 120.54
+2024-10-15 17:57:36,276 - INFO - Epoch: 19
+2024-10-15 17:57:36,277 - INFO - 	Train Loss: 4.140
+2024-10-15 17:57:36,277 - INFO - 	 Val. Loss: 4.761 |  Val. BLEU: 0.01 | Val. Perplexity: 116.82
+2024-10-15 17:58:38,037 - INFO - Epoch: 20
+2024-10-15 17:58:38,038 - INFO - 	Train Loss: 4.072
+2024-10-15 17:58:38,038 - INFO - 	 Val. Loss: 4.729 |  Val. BLEU: 0.01 | Val. Perplexity: 113.16
+2024-10-15 17:59:38,866 - INFO - Epoch: 21
+2024-10-15 17:59:38,867 - INFO - 	Train Loss: 4.004
+2024-10-15 17:59:38,867 - INFO - 	 Val. Loss: 4.699 |  Val. BLEU: 0.01 | Val. Perplexity: 109.84
+2024-10-15 18:00:40,040 - INFO - Epoch: 22
+2024-10-15 18:00:40,041 - INFO - 	Train Loss: 3.942
+2024-10-15 18:00:40,041 - INFO - 	 Val. Loss: 4.667 |  Val. BLEU: 0.01 | Val. Perplexity: 106.42
+2024-10-15 18:01:41,370 - INFO - Epoch: 23
+2024-10-15 18:01:41,371 - INFO - 	Train Loss: 3.887
+2024-10-15 18:01:41,371 - INFO - 	 Val. Loss: 4.642 |  Val. BLEU: 0.01 | Val. Perplexity: 103.80
+2024-10-15 18:02:43,126 - INFO - Epoch: 24
+2024-10-15 18:02:43,126 - INFO - 	Train Loss: 3.819
+2024-10-15 18:02:43,126 - INFO - 	 Val. Loss: 4.616 |  Val. BLEU: 0.01 | Val. Perplexity: 101.09
+2024-10-15 18:03:44,337 - INFO - Epoch: 25
+2024-10-15 18:03:44,337 - INFO - 	Train Loss: 3.762
+2024-10-15 18:03:44,337 - INFO - 	 Val. Loss: 4.590 |  Val. BLEU: 0.01 | Val. Perplexity: 98.52
+2024-10-15 18:04:45,470 - INFO - Epoch: 26
+2024-10-15 18:04:45,471 - INFO - 	Train Loss: 3.708
+2024-10-15 18:04:45,471 - INFO - 	 Val. Loss: 4.572 |  Val. BLEU: 0.01 | Val. Perplexity: 96.75
+2024-10-15 18:05:46,652 - INFO - Epoch: 27
+2024-10-15 18:05:46,653 - INFO - 	Train Loss: 3.653
+2024-10-15 18:05:46,653 - INFO - 	 Val. Loss: 4.550 |  Val. BLEU: 0.01 | Val. Perplexity: 94.62
+2024-10-15 18:06:48,615 - INFO - Epoch: 28
+2024-10-15 18:06:48,615 - INFO - 	Train Loss: 3.599
+2024-10-15 18:06:48,615 - INFO - 	 Val. Loss: 4.531 |  Val. BLEU: 0.01 | Val. Perplexity: 92.83
+2024-10-15 18:07:51,578 - INFO - Epoch: 29
+2024-10-15 18:07:51,579 - INFO - 	Train Loss: 3.537
+2024-10-15 18:07:51,579 - INFO - 	 Val. Loss: 4.510 |  Val. BLEU: 0.02 | Val. Perplexity: 90.93
+2024-10-15 18:08:53,766 - INFO - Epoch: 30
+2024-10-15 18:08:53,766 - INFO - 	Train Loss: 3.494
+2024-10-15 18:08:53,766 - INFO - 	 Val. Loss: 4.488 |  Val. BLEU: 0.02 | Val. Perplexity: 88.97
+2024-10-15 18:09:08,028 - INFO - Test Loss: 4.516 | Test BLEU: 0.02 | Test Perplexity: 91.44
+2024-10-15 18:09:08,044 - INFO - Japanese input: こんにちは
+2024-10-15 18:09:08,044 - INFO - English translation: 
+2024-10-16 03:13:03,285 - INFO - loading Word2Vec object from models/word2vec_embedding_256.model
+2024-10-16 03:13:03,312 - INFO - loading wv recursively from models/word2vec_embedding_256.model.wv.* with mmap=None
+2024-10-16 03:13:03,312 - INFO - setting ignored attribute cum_table to None
+2024-10-16 03:13:03,409 - INFO - Word2Vec lifecycle event {'fname': 'models/word2vec_embedding_256.model', 'datetime': '2024-10-16T03:13:03.405742', 'gensim': '4.3.3', 'python': '3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]', 'platform': 'Linux-5.4.0-144-generic-x86_64-with-glibc2.31', 'event': 'loaded'}
+2024-10-16 03:14:09,650 - INFO - Epoch: 1
+2024-10-16 03:14:09,651 - INFO - 	Train Loss: 6.533
+2024-10-16 03:14:09,651 - INFO - 	 Val. Loss: 6.072 |  Val. BLEU: 0.00 | Val. Perplexity: 433.63
+2024-10-16 03:15:12,841 - INFO - Epoch: 2
+2024-10-16 03:15:12,841 - INFO - 	Train Loss: 5.970
+2024-10-16 03:15:12,841 - INFO - 	 Val. Loss: 6.003 |  Val. BLEU: 0.00 | Val. Perplexity: 404.80
+2024-10-16 03:16:15,544 - INFO - Epoch: 3
+2024-10-16 03:16:15,545 - INFO - 	Train Loss: 5.854
+2024-10-16 03:16:15,545 - INFO - 	 Val. Loss: 5.906 |  Val. BLEU: 0.00 | Val. Perplexity: 367.28
+2024-10-16 03:20:21,069 - INFO - Epoch: 4
+2024-10-16 03:20:21,069 - INFO - 	Train Loss: 5.717
+2024-10-16 03:20:21,069 - INFO - 	 Val. Loss: 5.791 |  Val. BLEU: 0.00 | Val. Perplexity: 327.29
+2024-10-16 03:21:23,446 - INFO - Epoch: 5
+2024-10-16 03:21:23,446 - INFO - 	Train Loss: 5.577
+2024-10-16 03:21:23,446 - INFO - 	 Val. Loss: 5.671 |  Val. BLEU: 0.00 | Val. Perplexity: 290.19
+2024-10-16 03:22:24,669 - INFO - Epoch: 6
+2024-10-16 03:22:24,669 - INFO - 	Train Loss: 5.426
+2024-10-16 03:22:24,669 - INFO - 	 Val. Loss: 5.550 |  Val. BLEU: 0.00 | Val. Perplexity: 257.11
+2024-10-16 03:23:27,876 - INFO - Epoch: 7
+2024-10-16 03:23:27,876 - INFO - 	Train Loss: 5.278
+2024-10-16 03:23:27,876 - INFO - 	 Val. Loss: 5.436 |  Val. BLEU: 0.00 | Val. Perplexity: 229.44
+2024-10-16 03:24:30,822 - INFO - Epoch: 8
+2024-10-16 03:24:30,822 - INFO - 	Train Loss: 5.141
+2024-10-16 03:24:30,822 - INFO - 	 Val. Loss: 5.343 |  Val. BLEU: 0.00 | Val. Perplexity: 209.08
+2024-10-16 03:25:34,462 - INFO - Epoch: 9
+2024-10-16 03:25:34,462 - INFO - 	Train Loss: 5.013
+2024-10-16 03:25:34,462 - INFO - 	 Val. Loss: 5.252 |  Val. BLEU: 0.00 | Val. Perplexity: 190.94
+2024-10-16 03:26:36,937 - INFO - Epoch: 10
+2024-10-16 03:26:36,938 - INFO - 	Train Loss: 4.900
+2024-10-16 03:26:36,938 - INFO - 	 Val. Loss: 5.183 |  Val. BLEU: 0.00 | Val. Perplexity: 178.15
+2024-10-16 03:27:38,738 - INFO - Epoch: 11
+2024-10-16 03:27:38,739 - INFO - 	Train Loss: 4.792
+2024-10-16 03:27:38,739 - INFO - 	 Val. Loss: 5.120 |  Val. BLEU: 0.00 | Val. Perplexity: 167.29
+2024-10-16 03:28:41,315 - INFO - Epoch: 12
+2024-10-16 03:28:41,315 - INFO - 	Train Loss: 4.701
+2024-10-16 03:28:41,315 - INFO - 	 Val. Loss: 5.058 |  Val. BLEU: 0.00 | Val. Perplexity: 157.26
+2024-10-16 03:29:45,428 - INFO - Epoch: 13
+2024-10-16 03:29:45,428 - INFO - 	Train Loss: 4.605
+2024-10-16 03:29:45,428 - INFO - 	 Val. Loss: 5.004 |  Val. BLEU: 0.00 | Val. Perplexity: 149.03
+2024-10-16 03:30:47,914 - INFO - Epoch: 14
+2024-10-16 03:30:47,914 - INFO - 	Train Loss: 4.518
+2024-10-16 03:30:47,914 - INFO - 	 Val. Loss: 4.955 |  Val. BLEU: 0.00 | Val. Perplexity: 141.94
+2024-10-16 03:31:49,928 - INFO - Epoch: 15
+2024-10-16 03:31:49,929 - INFO - 	Train Loss: 4.439
+2024-10-16 03:31:49,929 - INFO - 	 Val. Loss: 4.919 |  Val. BLEU: 0.00 | Val. Perplexity: 136.83
+2024-10-16 03:32:51,654 - INFO - Epoch: 16
+2024-10-16 03:32:51,655 - INFO - 	Train Loss: 4.357
+2024-10-16 03:32:51,655 - INFO - 	 Val. Loss: 4.877 |  Val. BLEU: 0.00 | Val. Perplexity: 131.27
+2024-10-16 03:33:53,256 - INFO - Epoch: 17
+2024-10-16 03:33:53,257 - INFO - 	Train Loss: 4.279
+2024-10-16 03:33:53,257 - INFO - 	 Val. Loss: 4.831 |  Val. BLEU: 0.00 | Val. Perplexity: 125.36
+2024-10-16 03:34:54,748 - INFO - Epoch: 18
+2024-10-16 03:34:54,749 - INFO - 	Train Loss: 4.209
+2024-10-16 03:34:54,749 - INFO - 	 Val. Loss: 4.792 |  Val. BLEU: 0.01 | Val. Perplexity: 120.50
+2024-10-16 03:35:56,809 - INFO - Epoch: 19
+2024-10-16 03:35:56,809 - INFO - 	Train Loss: 4.135
+2024-10-16 03:35:56,809 - INFO - 	 Val. Loss: 4.758 |  Val. BLEU: 0.01 | Val. Perplexity: 116.52
+2024-10-16 03:36:59,567 - INFO - Epoch: 20
+2024-10-16 03:36:59,568 - INFO - 	Train Loss: 4.068
+2024-10-16 03:36:59,568 - INFO - 	 Val. Loss: 4.727 |  Val. BLEU: 0.01 | Val. Perplexity: 112.92
+2024-10-16 03:38:00,095 - INFO - Epoch: 21
+2024-10-16 03:38:00,095 - INFO - 	Train Loss: 4.002
+2024-10-16 03:38:00,095 - INFO - 	 Val. Loss: 4.696 |  Val. BLEU: 0.01 | Val. Perplexity: 109.52
+2024-10-16 03:39:01,040 - INFO - Epoch: 22
+2024-10-16 03:39:01,040 - INFO - 	Train Loss: 3.944
+2024-10-16 03:39:01,041 - INFO - 	 Val. Loss: 4.666 |  Val. BLEU: 0.01 | Val. Perplexity: 106.32
+2024-10-16 03:40:02,945 - INFO - Epoch: 23
+2024-10-16 03:40:02,946 - INFO - 	Train Loss: 3.881
+2024-10-16 03:40:02,946 - INFO - 	 Val. Loss: 4.638 |  Val. BLEU: 0.01 | Val. Perplexity: 103.29
+2024-10-16 03:41:04,834 - INFO - Epoch: 24
+2024-10-16 03:41:04,834 - INFO - 	Train Loss: 3.820
+2024-10-16 03:41:04,834 - INFO - 	 Val. Loss: 4.612 |  Val. BLEU: 0.01 | Val. Perplexity: 100.72
+2024-10-16 03:42:05,969 - INFO - Epoch: 25
+2024-10-16 03:42:05,969 - INFO - 	Train Loss: 3.763
+2024-10-16 03:42:05,969 - INFO - 	 Val. Loss: 4.588 |  Val. BLEU: 0.01 | Val. Perplexity: 98.28
+2024-10-16 03:43:07,802 - INFO - Epoch: 26
+2024-10-16 03:43:07,803 - INFO - 	Train Loss: 3.697
+2024-10-16 03:43:07,803 - INFO - 	 Val. Loss: 4.567 |  Val. BLEU: 0.01 | Val. Perplexity: 96.21
+2024-10-16 03:44:09,683 - INFO - Epoch: 27
+2024-10-16 03:44:09,684 - INFO - 	Train Loss: 3.653
+2024-10-16 03:44:09,684 - INFO - 	 Val. Loss: 4.546 |  Val. BLEU: 0.01 | Val. Perplexity: 94.27
+2024-10-16 03:45:10,262 - INFO - Epoch: 28
+2024-10-16 03:45:10,263 - INFO - 	Train Loss: 3.599
+2024-10-16 03:45:10,263 - INFO - 	 Val. Loss: 4.523 |  Val. BLEU: 0.01 | Val. Perplexity: 92.11
+2024-10-16 03:46:12,676 - INFO - Epoch: 29
+2024-10-16 03:46:12,677 - INFO - 	Train Loss: 3.542
+2024-10-16 03:46:12,677 - INFO - 	 Val. Loss: 4.507 |  Val. BLEU: 0.02 | Val. Perplexity: 90.69
+2024-10-16 03:47:16,197 - INFO - Epoch: 30
+2024-10-16 03:47:16,197 - INFO - 	Train Loss: 3.491
+2024-10-16 03:47:16,197 - INFO - 	 Val. Loss: 4.481 |  Val. BLEU: 0.02 | Val. Perplexity: 88.33
+2024-10-16 03:48:19,050 - INFO - Epoch: 31
+2024-10-16 03:48:19,050 - INFO - 	Train Loss: 3.442
+2024-10-16 03:48:19,050 - INFO - 	 Val. Loss: 4.466 |  Val. BLEU: 0.02 | Val. Perplexity: 86.99
+2024-10-16 03:49:20,693 - INFO - Epoch: 32
+2024-10-16 03:49:20,693 - INFO - 	Train Loss: 3.393
+2024-10-16 03:49:20,693 - INFO - 	 Val. Loss: 4.449 |  Val. BLEU: 0.02 | Val. Perplexity: 85.52
+2024-10-16 03:50:22,156 - INFO - Epoch: 33
+2024-10-16 03:50:22,157 - INFO - 	Train Loss: 3.347
+2024-10-16 03:50:22,157 - INFO - 	 Val. Loss: 4.427 |  Val. BLEU: 0.02 | Val. Perplexity: 83.70
+2024-10-16 03:51:23,789 - INFO - Epoch: 34
+2024-10-16 03:51:23,789 - INFO - 	Train Loss: 3.306
+2024-10-16 03:51:23,789 - INFO - 	 Val. Loss: 4.416 |  Val. BLEU: 0.02 | Val. Perplexity: 82.81
+2024-10-16 03:52:25,170 - INFO - Epoch: 35
+2024-10-16 03:52:25,171 - INFO - 	Train Loss: 3.255
+2024-10-16 03:52:25,171 - INFO - 	 Val. Loss: 4.401 |  Val. BLEU: 0.02 | Val. Perplexity: 81.54
+2024-10-16 03:53:27,905 - INFO - Epoch: 36
+2024-10-16 03:53:27,905 - INFO - 	Train Loss: 3.215
+2024-10-16 03:53:27,905 - INFO - 	 Val. Loss: 4.387 |  Val. BLEU: 0.02 | Val. Perplexity: 80.40
+2024-10-16 03:54:29,783 - INFO - Epoch: 37
+2024-10-16 03:54:29,783 - INFO - 	Train Loss: 3.170
+2024-10-16 03:54:29,783 - INFO - 	 Val. Loss: 4.374 |  Val. BLEU: 0.02 | Val. Perplexity: 79.39
+2024-10-16 03:55:31,125 - INFO - Epoch: 38
+2024-10-16 03:55:31,126 - INFO - 	Train Loss: 3.129
+2024-10-16 03:55:31,126 - INFO - 	 Val. Loss: 4.369 |  Val. BLEU: 0.02 | Val. Perplexity: 78.99
+2024-10-16 03:56:33,216 - INFO - Epoch: 39
+2024-10-16 03:56:33,217 - INFO - 	Train Loss: 3.093
+2024-10-16 03:56:33,217 - INFO - 	 Val. Loss: 4.351 |  Val. BLEU: 0.03 | Val. Perplexity: 77.59
+2024-10-16 03:57:34,032 - INFO - Epoch: 40
+2024-10-16 03:57:34,033 - INFO - 	Train Loss: 3.056
+2024-10-16 03:57:34,033 - INFO - 	 Val. Loss: 4.338 |  Val. BLEU: 0.02 | Val. Perplexity: 76.53
+2024-10-16 03:58:33,819 - INFO - Epoch: 41
+2024-10-16 03:58:33,819 - INFO - 	Train Loss: 3.014
+2024-10-16 03:58:33,819 - INFO - 	 Val. Loss: 4.331 |  Val. BLEU: 0.03 | Val. Perplexity: 76.05
+2024-10-16 03:59:35,698 - INFO - Epoch: 42
+2024-10-16 03:59:35,698 - INFO - 	Train Loss: 2.982
+2024-10-16 03:59:35,698 - INFO - 	 Val. Loss: 4.321 |  Val. BLEU: 0.03 | Val. Perplexity: 75.28
+2024-10-16 04:00:37,354 - INFO - Epoch: 43
+2024-10-16 04:00:37,354 - INFO - 	Train Loss: 2.951
+2024-10-16 04:00:37,355 - INFO - 	 Val. Loss: 4.315 |  Val. BLEU: 0.03 | Val. Perplexity: 74.79
+2024-10-16 04:01:38,607 - INFO - Epoch: 44
+2024-10-16 04:01:38,607 - INFO - 	Train Loss: 2.906
+2024-10-16 04:01:38,607 - INFO - 	 Val. Loss: 4.306 |  Val. BLEU: 0.03 | Val. Perplexity: 74.11
+2024-10-16 04:02:40,134 - INFO - Epoch: 45
+2024-10-16 04:02:40,135 - INFO - 	Train Loss: 2.883
+2024-10-16 04:02:40,135 - INFO - 	 Val. Loss: 4.292 |  Val. BLEU: 0.03 | Val. Perplexity: 73.10
+2024-10-16 04:03:41,412 - INFO - Epoch: 46
+2024-10-16 04:03:41,413 - INFO - 	Train Loss: 2.838
+2024-10-16 04:03:41,413 - INFO - 	 Val. Loss: 4.291 |  Val. BLEU: 0.03 | Val. Perplexity: 73.07
+2024-10-16 04:04:43,180 - INFO - Epoch: 47
+2024-10-16 04:04:43,181 - INFO - 	Train Loss: 2.814
+2024-10-16 04:04:43,181 - INFO - 	 Val. Loss: 4.278 |  Val. BLEU: 0.03 | Val. Perplexity: 72.09
+2024-10-16 04:05:44,921 - INFO - Epoch: 48
+2024-10-16 04:05:44,922 - INFO - 	Train Loss: 2.780
+2024-10-16 04:05:44,922 - INFO - 	 Val. Loss: 4.264 |  Val. BLEU: 0.03 | Val. Perplexity: 71.09
+2024-10-16 04:06:46,703 - INFO - Epoch: 49
+2024-10-16 04:06:46,704 - INFO - 	Train Loss: 2.747
+2024-10-16 04:06:46,704 - INFO - 	 Val. Loss: 4.260 |  Val. BLEU: 0.04 | Val. Perplexity: 70.79
+2024-10-16 04:07:47,565 - INFO - Epoch: 50
+2024-10-16 04:07:47,565 - INFO - 	Train Loss: 2.714
+2024-10-16 04:07:47,565 - INFO - 	 Val. Loss: 4.252 |  Val. BLEU: 0.04 | Val. Perplexity: 70.23
+2024-10-16 04:08:01,981 - INFO - Test Loss: 4.298 | Test BLEU: 0.03 | Test Perplexity: 73.59
+2024-10-16 04:08:01,996 - INFO - Japanese input: こんにちは
+2024-10-16 04:08:01,997 - INFO - English translation: 
+2024-10-16 05:12:59,190 - INFO - loading Word2Vec object from models/word2vec_embedding_256.model
+2024-10-16 05:12:59,217 - INFO - loading wv recursively from models/word2vec_embedding_256.model.wv.* with mmap=None
+2024-10-16 05:12:59,217 - INFO - setting ignored attribute cum_table to None
+2024-10-16 05:12:59,313 - INFO - Word2Vec lifecycle event {'fname': 'models/word2vec_embedding_256.model', 'datetime': '2024-10-16T05:12:59.311737', 'gensim': '4.3.3', 'python': '3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]', 'platform': 'Linux-5.4.0-144-generic-x86_64-with-glibc2.31', 'event': 'loaded'}
+2024-10-16 05:14:05,973 - INFO - Epoch: 1
+2024-10-16 05:14:05,974 - INFO - 	Train Loss: 6.529
+2024-10-16 05:14:05,974 - INFO - 	 Val. Loss: 6.070 |  Val. BLEU: 0.00 | Val. Perplexity: 432.61
+2024-10-16 05:15:11,429 - INFO - Epoch: 2
+2024-10-16 05:15:11,429 - INFO - 	Train Loss: 5.966
+2024-10-16 05:15:11,430 - INFO - 	 Val. Loss: 5.999 |  Val. BLEU: 0.00 | Val. Perplexity: 402.94
+2024-10-16 05:16:14,616 - INFO - Epoch: 3
+2024-10-16 05:16:14,616 - INFO - 	Train Loss: 5.849
+2024-10-16 05:16:14,616 - INFO - 	 Val. Loss: 5.899 |  Val. BLEU: 0.00 | Val. Perplexity: 364.61
+2024-10-16 05:17:17,111 - INFO - Epoch: 4
+2024-10-16 05:17:17,111 - INFO - 	Train Loss: 5.714
+2024-10-16 05:17:17,111 - INFO - 	 Val. Loss: 5.787 |  Val. BLEU: 0.00 | Val. Perplexity: 326.11
+2024-10-16 05:18:19,778 - INFO - Epoch: 5
+2024-10-16 05:18:19,779 - INFO - 	Train Loss: 5.572
+2024-10-16 05:18:19,779 - INFO - 	 Val. Loss: 5.662 |  Val. BLEU: 0.00 | Val. Perplexity: 287.79
+2024-10-16 05:19:22,178 - INFO - Epoch: 6
+2024-10-16 05:19:22,178 - INFO - 	Train Loss: 5.416
+2024-10-16 05:19:22,178 - INFO - 	 Val. Loss: 5.536 |  Val. BLEU: 0.00 | Val. Perplexity: 253.78
+2024-10-16 05:20:24,761 - INFO - Epoch: 7
+2024-10-16 05:20:24,761 - INFO - 	Train Loss: 5.267
+2024-10-16 05:20:24,761 - INFO - 	 Val. Loss: 5.425 |  Val. BLEU: 0.00 | Val. Perplexity: 226.95
+2024-10-16 05:21:26,792 - INFO - Epoch: 8
+2024-10-16 05:21:26,792 - INFO - 	Train Loss: 5.130
+2024-10-16 05:21:26,792 - INFO - 	 Val. Loss: 5.332 |  Val. BLEU: 0.00 | Val. Perplexity: 206.86
+2024-10-16 05:22:28,006 - INFO - Epoch: 9
+2024-10-16 05:22:28,007 - INFO - 	Train Loss: 5.003
+2024-10-16 05:22:28,007 - INFO - 	 Val. Loss: 5.247 |  Val. BLEU: 0.00 | Val. Perplexity: 189.96
+2024-10-16 05:23:28,171 - INFO - Epoch: 10
+2024-10-16 05:23:28,171 - INFO - 	Train Loss: 4.894
+2024-10-16 05:23:28,171 - INFO - 	 Val. Loss: 5.180 |  Val. BLEU: 0.00 | Val. Perplexity: 177.65
+2024-10-16 05:24:28,464 - INFO - Epoch: 11
+2024-10-16 05:24:28,464 - INFO - 	Train Loss: 4.790
+2024-10-16 05:24:28,464 - INFO - 	 Val. Loss: 5.119 |  Val. BLEU: 0.00 | Val. Perplexity: 167.19
+2024-10-16 05:25:28,980 - INFO - Epoch: 12
+2024-10-16 05:25:28,980 - INFO - 	Train Loss: 4.693
+2024-10-16 05:25:28,980 - INFO - 	 Val. Loss: 5.060 |  Val. BLEU: 0.00 | Val. Perplexity: 157.55
+2024-10-16 05:26:31,182 - INFO - Epoch: 13
+2024-10-16 05:26:31,182 - INFO - 	Train Loss: 4.605
+2024-10-16 05:26:31,182 - INFO - 	 Val. Loss: 5.006 |  Val. BLEU: 0.00 | Val. Perplexity: 149.34
+2024-10-16 05:27:33,376 - INFO - Epoch: 14
+2024-10-16 05:27:33,376 - INFO - 	Train Loss: 4.515
+2024-10-16 05:27:33,376 - INFO - 	 Val. Loss: 4.958 |  Val. BLEU: 0.00 | Val. Perplexity: 142.32
+2024-10-16 05:28:35,299 - INFO - Epoch: 15
+2024-10-16 05:28:35,299 - INFO - 	Train Loss: 4.435
+2024-10-16 05:28:35,299 - INFO - 	 Val. Loss: 4.920 |  Val. BLEU: 0.00 | Val. Perplexity: 137.04
+2024-10-16 05:29:37,524 - INFO - Epoch: 16
+2024-10-16 05:29:37,524 - INFO - 	Train Loss: 4.353
+2024-10-16 05:29:37,524 - INFO - 	 Val. Loss: 4.876 |  Val. BLEU: 0.00 | Val. Perplexity: 131.15
+2024-10-16 05:30:38,866 - INFO - Epoch: 17
+2024-10-16 05:30:38,867 - INFO - 	Train Loss: 4.275
+2024-10-16 05:30:38,867 - INFO - 	 Val. Loss: 4.835 |  Val. BLEU: 0.00 | Val. Perplexity: 125.81
+2024-10-16 05:31:41,365 - INFO - Epoch: 18
+2024-10-16 05:31:41,366 - INFO - 	Train Loss: 4.211
+2024-10-16 05:31:41,366 - INFO - 	 Val. Loss: 4.790 |  Val. BLEU: 0.00 | Val. Perplexity: 120.31
+2024-10-16 05:32:41,802 - INFO - Epoch: 19
+2024-10-16 05:32:41,802 - INFO - 	Train Loss: 4.138
+2024-10-16 05:32:41,802 - INFO - 	 Val. Loss: 4.756 |  Val. BLEU: 0.01 | Val. Perplexity: 116.33
+2024-10-16 05:33:42,756 - INFO - Epoch: 20
+2024-10-16 05:33:42,756 - INFO - 	Train Loss: 4.073
+2024-10-16 05:33:42,756 - INFO - 	 Val. Loss: 4.723 |  Val. BLEU: 0.01 | Val. Perplexity: 112.54
+2024-10-16 05:34:44,758 - INFO - Epoch: 21
+2024-10-16 05:34:44,758 - INFO - 	Train Loss: 3.999
+2024-10-16 05:34:44,758 - INFO - 	 Val. Loss: 4.695 |  Val. BLEU: 0.01 | Val. Perplexity: 109.36
+2024-10-16 05:35:47,220 - INFO - Epoch: 22
+2024-10-16 05:35:47,220 - INFO - 	Train Loss: 3.942
+2024-10-16 05:35:47,220 - INFO - 	 Val. Loss: 4.669 |  Val. BLEU: 0.01 | Val. Perplexity: 106.64
+2024-10-16 05:36:48,386 - INFO - Epoch: 23
+2024-10-16 05:36:48,386 - INFO - 	Train Loss: 3.876
+2024-10-16 05:36:48,386 - INFO - 	 Val. Loss: 4.641 |  Val. BLEU: 0.01 | Val. Perplexity: 103.70
+2024-10-16 05:37:51,063 - INFO - Epoch: 24
+2024-10-16 05:37:51,064 - INFO - 	Train Loss: 3.819
+2024-10-16 05:37:51,064 - INFO - 	 Val. Loss: 4.610 |  Val. BLEU: 0.01 | Val. Perplexity: 100.44
+2024-10-16 05:38:54,125 - INFO - Epoch: 25
+2024-10-16 05:38:54,125 - INFO - 	Train Loss: 3.756
+2024-10-16 05:38:54,125 - INFO - 	 Val. Loss: 4.594 |  Val. BLEU: 0.01 | Val. Perplexity: 98.86
+2024-10-16 05:39:55,759 - INFO - Epoch: 26
+2024-10-16 05:39:55,759 - INFO - 	Train Loss: 3.702
+2024-10-16 05:39:55,759 - INFO - 	 Val. Loss: 4.568 |  Val. BLEU: 0.01 | Val. Perplexity: 96.38
+2024-10-16 05:40:57,431 - INFO - Epoch: 27
+2024-10-16 05:40:57,431 - INFO - 	Train Loss: 3.650
+2024-10-16 05:40:57,431 - INFO - 	 Val. Loss: 4.556 |  Val. BLEU: 0.01 | Val. Perplexity: 95.21
+2024-10-16 05:41:59,208 - INFO - Epoch: 28
+2024-10-16 05:41:59,209 - INFO - 	Train Loss: 3.594
+2024-10-16 05:41:59,209 - INFO - 	 Val. Loss: 4.527 |  Val. BLEU: 0.01 | Val. Perplexity: 92.44
+2024-10-16 05:43:01,736 - INFO - Epoch: 29
+2024-10-16 05:43:01,737 - INFO - 	Train Loss: 3.536
+2024-10-16 05:43:01,737 - INFO - 	 Val. Loss: 4.508 |  Val. BLEU: 0.02 | Val. Perplexity: 90.74
+2024-10-16 05:44:03,758 - INFO - Epoch: 30
+2024-10-16 05:44:03,758 - INFO - 	Train Loss: 3.488
+2024-10-16 05:44:03,758 - INFO - 	 Val. Loss: 4.481 |  Val. BLEU: 0.02 | Val. Perplexity: 88.30
+2024-10-16 05:45:05,101 - INFO - Epoch: 31
+2024-10-16 05:45:05,101 - INFO - 	Train Loss: 3.450
+2024-10-16 05:45:05,101 - INFO - 	 Val. Loss: 4.466 |  Val. BLEU: 0.02 | Val. Perplexity: 87.04
+2024-10-16 05:46:06,082 - INFO - Epoch: 32
+2024-10-16 05:46:06,083 - INFO - 	Train Loss: 3.397
+2024-10-16 05:46:06,083 - INFO - 	 Val. Loss: 4.448 |  Val. BLEU: 0.02 | Val. Perplexity: 85.44
+2024-10-16 05:47:07,749 - INFO - Epoch: 33
+2024-10-16 05:47:07,750 - INFO - 	Train Loss: 3.352
+2024-10-16 05:47:07,750 - INFO - 	 Val. Loss: 4.426 |  Val. BLEU: 0.02 | Val. Perplexity: 83.64
+2024-10-16 05:48:09,263 - INFO - Epoch: 34
+2024-10-16 05:48:09,263 - INFO - 	Train Loss: 3.306
+2024-10-16 05:48:09,263 - INFO - 	 Val. Loss: 4.416 |  Val. BLEU: 0.02 | Val. Perplexity: 82.77
+2024-10-16 05:49:10,183 - INFO - Epoch: 35
+2024-10-16 05:49:10,184 - INFO - 	Train Loss: 3.265
+2024-10-16 05:49:10,184 - INFO - 	 Val. Loss: 4.401 |  Val. BLEU: 0.02 | Val. Perplexity: 81.55
+2024-10-16 05:50:11,389 - INFO - Epoch: 36
+2024-10-16 05:50:11,389 - INFO - 	Train Loss: 3.208
+2024-10-16 05:50:11,389 - INFO - 	 Val. Loss: 4.391 |  Val. BLEU: 0.02 | Val. Perplexity: 80.76
+2024-10-16 05:51:12,941 - INFO - Epoch: 37
+2024-10-16 05:51:12,942 - INFO - 	Train Loss: 3.168
+2024-10-16 05:51:12,942 - INFO - 	 Val. Loss: 4.380 |  Val. BLEU: 0.02 | Val. Perplexity: 79.81
+2024-10-16 05:52:14,326 - INFO - Epoch: 38
+2024-10-16 05:52:14,326 - INFO - 	Train Loss: 3.133
+2024-10-16 05:52:14,326 - INFO - 	 Val. Loss: 4.367 |  Val. BLEU: 0.02 | Val. Perplexity: 78.84
+2024-10-16 05:53:15,740 - INFO - Epoch: 39
+2024-10-16 05:53:15,740 - INFO - 	Train Loss: 3.089
+2024-10-16 05:53:15,740 - INFO - 	 Val. Loss: 4.352 |  Val. BLEU: 0.03 | Val. Perplexity: 77.64
+2024-10-16 05:54:16,848 - INFO - Epoch: 40
+2024-10-16 05:54:16,848 - INFO - 	Train Loss: 3.049
+2024-10-16 05:54:16,848 - INFO - 	 Val. Loss: 4.344 |  Val. BLEU: 0.03 | Val. Perplexity: 77.02
+2024-10-16 05:55:17,739 - INFO - Epoch: 41
+2024-10-16 05:55:17,740 - INFO - 	Train Loss: 3.016
+2024-10-16 05:55:17,740 - INFO - 	 Val. Loss: 4.340 |  Val. BLEU: 0.03 | Val. Perplexity: 76.74
+2024-10-16 05:56:19,164 - INFO - Epoch: 42
+2024-10-16 05:56:19,164 - INFO - 	Train Loss: 2.980
+2024-10-16 05:56:19,164 - INFO - 	 Val. Loss: 4.322 |  Val. BLEU: 0.03 | Val. Perplexity: 75.37
+2024-10-16 05:57:19,903 - INFO - Epoch: 43
+2024-10-16 05:57:19,903 - INFO - 	Train Loss: 2.947
+2024-10-16 05:57:19,903 - INFO - 	 Val. Loss: 4.316 |  Val. BLEU: 0.03 | Val. Perplexity: 74.90
+2024-10-16 05:58:20,630 - INFO - Epoch: 44
+2024-10-16 05:58:20,630 - INFO - 	Train Loss: 2.907
+2024-10-16 05:58:20,630 - INFO - 	 Val. Loss: 4.311 |  Val. BLEU: 0.03 | Val. Perplexity: 74.50
+2024-10-16 05:59:21,953 - INFO - Epoch: 45
+2024-10-16 05:59:21,953 - INFO - 	Train Loss: 2.873
+2024-10-16 05:59:21,953 - INFO - 	 Val. Loss: 4.299 |  Val. BLEU: 0.03 | Val. Perplexity: 73.60
+2024-10-16 06:00:24,579 - INFO - Epoch: 46
+2024-10-16 06:00:24,579 - INFO - 	Train Loss: 2.841
+2024-10-16 06:00:24,579 - INFO - 	 Val. Loss: 4.294 |  Val. BLEU: 0.03 | Val. Perplexity: 73.29
+2024-10-16 06:01:24,040 - INFO - Epoch: 47
+2024-10-16 06:01:24,040 - INFO - 	Train Loss: 2.808
+2024-10-16 06:01:24,040 - INFO - 	 Val. Loss: 4.283 |  Val. BLEU: 0.03 | Val. Perplexity: 72.45
+2024-10-16 06:02:25,071 - INFO - Epoch: 48
+2024-10-16 06:02:25,071 - INFO - 	Train Loss: 2.777
+2024-10-16 06:02:25,071 - INFO - 	 Val. Loss: 4.272 |  Val. BLEU: 0.03 | Val. Perplexity: 71.65
+2024-10-16 06:03:25,793 - INFO - Epoch: 49
+2024-10-16 06:03:25,794 - INFO - 	Train Loss: 2.748
+2024-10-16 06:03:25,794 - INFO - 	 Val. Loss: 4.267 |  Val. BLEU: 0.03 | Val. Perplexity: 71.31
+2024-10-16 06:04:27,052 - INFO - Epoch: 50
+2024-10-16 06:04:27,052 - INFO - 	Train Loss: 2.725
+2024-10-16 06:04:27,052 - INFO - 	 Val. Loss: 4.264 |  Val. BLEU: 0.03 | Val. Perplexity: 71.12
+2024-10-16 06:04:40,408 - INFO - Test Loss: 4.306 | Test BLEU: 0.03 | Test Perplexity: 74.13
+2024-10-16 06:04:40,429 - INFO - Japanese input: こんにちは
+2024-10-16 06:04:40,429 - INFO - English translation: 
+2024-10-16 10:36:18,725 - INFO - loading Word2Vec object from models/word2vec_embedding_256.model
+2024-10-16 10:36:18,752 - INFO - loading wv recursively from models/word2vec_embedding_256.model.wv.* with mmap=None
+2024-10-16 10:36:18,752 - INFO - setting ignored attribute cum_table to None
+2024-10-16 10:36:18,849 - INFO - Word2Vec lifecycle event {'fname': 'models/word2vec_embedding_256.model', 'datetime': '2024-10-16T10:36:18.846464', 'gensim': '4.3.3', 'python': '3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]', 'platform': 'Linux-5.4.0-144-generic-x86_64-with-glibc2.31', 'event': 'loaded'}
+2024-10-16 10:37:44,587 - INFO - Epoch: 1
+2024-10-16 10:37:44,588 - INFO - 	Train Loss: 5.907
+2024-10-16 10:37:44,588 - INFO - 	 Val. Loss: 5.523 |  Val. BLEU: 0.00 | Val. Perplexity: 250.38
+2024-10-16 10:39:02,718 - INFO - Epoch: 2
+2024-10-16 10:39:02,718 - INFO - 	Train Loss: 5.010
+2024-10-16 10:39:02,718 - INFO - 	 Val. Loss: 4.887 |  Val. BLEU: 0.01 | Val. Perplexity: 132.55
+2024-10-16 10:40:18,043 - INFO - Epoch: 3
+2024-10-16 10:40:18,043 - INFO - 	Train Loss: 4.254
+2024-10-16 10:40:18,043 - INFO - 	 Val. Loss: 4.472 |  Val. BLEU: 0.02 | Val. Perplexity: 87.55
+2024-10-16 10:41:34,108 - INFO - Epoch: 4
+2024-10-16 10:41:34,109 - INFO - 	Train Loss: 3.657
+2024-10-16 10:41:34,109 - INFO - 	 Val. Loss: 4.255 |  Val. BLEU: 0.03 | Val. Perplexity: 70.48
+2024-10-16 10:42:37,520 - INFO - Epoch: 5
+2024-10-16 10:42:37,520 - INFO - 	Train Loss: 3.204
+2024-10-16 10:42:37,520 - INFO - 	 Val. Loss: 4.140 |  Val. BLEU: 0.04 | Val. Perplexity: 62.77
+2024-10-16 10:43:40,008 - INFO - Epoch: 6
+2024-10-16 10:43:40,008 - INFO - 	Train Loss: 2.862
+2024-10-16 10:43:40,008 - INFO - 	 Val. Loss: 4.070 |  Val. BLEU: 0.05 | Val. Perplexity: 58.58
+2024-10-16 10:44:53,628 - INFO - Epoch: 7
+2024-10-16 10:44:53,628 - INFO - 	Train Loss: 2.606
+2024-10-16 10:44:53,628 - INFO - 	 Val. Loss: 4.042 |  Val. BLEU: 0.06 | Val. Perplexity: 56.92
+2024-10-16 10:46:04,726 - INFO - Epoch: 8
+2024-10-16 10:46:04,726 - INFO - 	Train Loss: 2.406
+2024-10-16 10:46:04,726 - INFO - 	 Val. Loss: 4.020 |  Val. BLEU: 0.07 | Val. Perplexity: 55.69
+2024-10-16 10:47:14,585 - INFO - Epoch: 9
+2024-10-16 10:47:14,585 - INFO - 	Train Loss: 2.250
+2024-10-16 10:47:14,585 - INFO - 	 Val. Loss: 4.026 |  Val. BLEU: 0.07 | Val. Perplexity: 56.02
+2024-10-16 10:48:14,253 - INFO - Epoch: 10
+2024-10-16 10:48:14,253 - INFO - 	Train Loss: 2.133
+2024-10-16 10:48:14,253 - INFO - 	 Val. Loss: 4.030 |  Val. BLEU: 0.08 | Val. Perplexity: 56.26
+2024-10-16 10:49:18,824 - INFO - Epoch: 11
+2024-10-16 10:49:18,824 - INFO - 	Train Loss: 2.017
+2024-10-16 10:49:18,824 - INFO - 	 Val. Loss: 4.066 |  Val. BLEU: 0.08 | Val. Perplexity: 58.33
+2024-10-16 10:50:16,107 - INFO - Epoch: 12
+2024-10-16 10:50:16,107 - INFO - 	Train Loss: 1.924
+2024-10-16 10:50:16,107 - INFO - 	 Val. Loss: 4.066 |  Val. BLEU: 0.09 | Val. Perplexity: 58.31
+2024-10-16 10:51:13,335 - INFO - Epoch: 13
+2024-10-16 10:51:13,336 - INFO - 	Train Loss: 1.840
+2024-10-16 10:51:13,336 - INFO - 	 Val. Loss: 4.085 |  Val. BLEU: 0.09 | Val. Perplexity: 59.43
+2024-10-16 10:52:11,996 - INFO - Epoch: 14
+2024-10-16 10:52:11,996 - INFO - 	Train Loss: 1.767
+2024-10-16 10:52:11,996 - INFO - 	 Val. Loss: 4.123 |  Val. BLEU: 0.09 | Val. Perplexity: 61.75
+2024-10-16 10:53:10,752 - INFO - Epoch: 15
+2024-10-16 10:53:10,752 - INFO - 	Train Loss: 1.703
+2024-10-16 10:53:10,752 - INFO - 	 Val. Loss: 4.145 |  Val. BLEU: 0.10 | Val. Perplexity: 63.12
+2024-10-16 10:54:22,477 - INFO - Epoch: 16
+2024-10-16 10:54:22,477 - INFO - 	Train Loss: 1.647
+2024-10-16 10:54:22,477 - INFO - 	 Val. Loss: 4.161 |  Val. BLEU: 0.10 | Val. Perplexity: 64.15
+2024-10-16 10:55:34,644 - INFO - Epoch: 17
+2024-10-16 10:55:34,644 - INFO - 	Train Loss: 1.582
+2024-10-16 10:55:34,644 - INFO - 	 Val. Loss: 4.195 |  Val. BLEU: 0.10 | Val. Perplexity: 66.33
+2024-10-16 10:56:46,520 - INFO - Epoch: 18
+2024-10-16 10:56:46,520 - INFO - 	Train Loss: 1.535
+2024-10-16 10:56:46,521 - INFO - 	 Val. Loss: 4.226 |  Val. BLEU: 0.10 | Val. Perplexity: 68.47
+2024-10-16 10:57:56,719 - INFO - Epoch: 19
+2024-10-16 10:57:56,719 - INFO - 	Train Loss: 1.490
+2024-10-16 10:57:56,719 - INFO - 	 Val. Loss: 4.247 |  Val. BLEU: 0.11 | Val. Perplexity: 69.87
+2024-10-16 10:59:06,012 - INFO - Epoch: 20
+2024-10-16 10:59:06,013 - INFO - 	Train Loss: 1.458
+2024-10-16 10:59:06,013 - INFO - 	 Val. Loss: 4.276 |  Val. BLEU: 0.11 | Val. Perplexity: 71.98
+2024-10-16 11:00:20,635 - INFO - Epoch: 21
+2024-10-16 11:00:20,635 - INFO - 	Train Loss: 1.415
+2024-10-16 11:00:20,635 - INFO - 	 Val. Loss: 4.321 |  Val. BLEU: 0.12 | Val. Perplexity: 75.26
+2024-10-16 11:01:27,781 - INFO - Epoch: 22
+2024-10-16 11:01:27,782 - INFO - 	Train Loss: 1.376
+2024-10-16 11:01:27,782 - INFO - 	 Val. Loss: 4.332 |  Val. BLEU: 0.12 | Val. Perplexity: 76.10
+2024-10-16 11:02:25,146 - INFO - Epoch: 23
+2024-10-16 11:02:25,147 - INFO - 	Train Loss: 1.351
+2024-10-16 11:02:25,147 - INFO - 	 Val. Loss: 4.363 |  Val. BLEU: 0.12 | Val. Perplexity: 78.47
+2024-10-16 11:03:15,405 - INFO - Epoch: 24
+2024-10-16 11:03:15,405 - INFO - 	Train Loss: 1.315
+2024-10-16 11:03:15,405 - INFO - 	 Val. Loss: 4.395 |  Val. BLEU: 0.12 | Val. Perplexity: 81.02
+2024-10-16 11:04:05,602 - INFO - Epoch: 25
+2024-10-16 11:04:05,602 - INFO - 	Train Loss: 1.287
+2024-10-16 11:04:05,602 - INFO - 	 Val. Loss: 4.443 |  Val. BLEU: 0.12 | Val. Perplexity: 85.01
+2024-10-16 11:04:56,014 - INFO - Epoch: 26
+2024-10-16 11:04:56,014 - INFO - 	Train Loss: 1.259
+2024-10-16 11:04:56,014 - INFO - 	 Val. Loss: 4.448 |  Val. BLEU: 0.12 | Val. Perplexity: 85.49
+2024-10-16 11:05:46,513 - INFO - Epoch: 27
+2024-10-16 11:05:46,513 - INFO - 	Train Loss: 1.234
+2024-10-16 11:05:46,513 - INFO - 	 Val. Loss: 4.492 |  Val. BLEU: 0.13 | Val. Perplexity: 89.29
+2024-10-16 11:06:36,004 - INFO - Epoch: 28
+2024-10-16 11:06:36,004 - INFO - 	Train Loss: 1.206
+2024-10-16 11:06:36,004 - INFO - 	 Val. Loss: 4.524 |  Val. BLEU: 0.13 | Val. Perplexity: 92.19
+2024-10-16 11:07:25,951 - INFO - Epoch: 29
+2024-10-16 11:07:25,951 - INFO - 	Train Loss: 1.188
+2024-10-16 11:07:25,951 - INFO - 	 Val. Loss: 4.510 |  Val. BLEU: 0.13 | Val. Perplexity: 90.89
+2024-10-16 11:08:16,539 - INFO - Epoch: 30
+2024-10-16 11:08:16,539 - INFO - 	Train Loss: 1.172
+2024-10-16 11:08:16,539 - INFO - 	 Val. Loss: 4.563 |  Val. BLEU: 0.14 | Val. Perplexity: 95.87
+2024-10-16 11:09:07,911 - INFO - Epoch: 31
+2024-10-16 11:09:07,912 - INFO - 	Train Loss: 1.140
+2024-10-16 11:09:07,912 - INFO - 	 Val. Loss: 4.587 |  Val. BLEU: 0.14 | Val. Perplexity: 98.24
+2024-10-16 11:09:57,854 - INFO - Epoch: 32
+2024-10-16 11:09:57,854 - INFO - 	Train Loss: 1.120
+2024-10-16 11:09:57,854 - INFO - 	 Val. Loss: 4.605 |  Val. BLEU: 0.14 | Val. Perplexity: 99.99
+2024-10-16 11:10:48,938 - INFO - Epoch: 33
+2024-10-16 11:10:48,938 - INFO - 	Train Loss: 1.108
+2024-10-16 11:10:48,938 - INFO - 	 Val. Loss: 4.639 |  Val. BLEU: 0.14 | Val. Perplexity: 103.45
+2024-10-16 11:11:38,525 - INFO - Epoch: 34
+2024-10-16 11:11:38,526 - INFO - 	Train Loss: 1.086
+2024-10-16 11:11:38,526 - INFO - 	 Val. Loss: 4.670 |  Val. BLEU: 0.14 | Val. Perplexity: 106.69
+2024-10-16 11:12:30,219 - INFO - Epoch: 35
+2024-10-16 11:12:30,219 - INFO - 	Train Loss: 1.073
+2024-10-16 11:12:30,219 - INFO - 	 Val. Loss: 4.692 |  Val. BLEU: 0.14 | Val. Perplexity: 109.02
+2024-10-16 11:13:19,563 - INFO - Epoch: 36
+2024-10-16 11:13:19,563 - INFO - 	Train Loss: 1.057
+2024-10-16 11:13:19,563 - INFO - 	 Val. Loss: 4.680 |  Val. BLEU: 0.14 | Val. Perplexity: 107.77
+2024-10-16 11:14:11,387 - INFO - Epoch: 37
+2024-10-16 11:14:11,387 - INFO - 	Train Loss: 1.036
+2024-10-16 11:14:11,387 - INFO - 	 Val. Loss: 4.711 |  Val. BLEU: 0.15 | Val. Perplexity: 111.13
+2024-10-16 11:15:00,241 - INFO - Epoch: 38
+2024-10-16 11:15:00,241 - INFO - 	Train Loss: 1.026
+2024-10-16 11:15:00,242 - INFO - 	 Val. Loss: 4.767 |  Val. BLEU: 0.14 | Val. Perplexity: 117.61
+2024-10-16 11:15:50,019 - INFO - Epoch: 39
+2024-10-16 11:15:50,020 - INFO - 	Train Loss: 1.011
+2024-10-16 11:15:50,020 - INFO - 	 Val. Loss: 4.759 |  Val. BLEU: 0.15 | Val. Perplexity: 116.61
+2024-10-16 11:16:40,907 - INFO - Epoch: 40
+2024-10-16 11:16:40,908 - INFO - 	Train Loss: 1.001
+2024-10-16 11:16:40,908 - INFO - 	 Val. Loss: 4.826 |  Val. BLEU: 0.15 | Val. Perplexity: 124.74
+2024-10-16 11:17:34,003 - INFO - Epoch: 41
+2024-10-16 11:17:34,004 - INFO - 	Train Loss: 0.981
+2024-10-16 11:17:34,004 - INFO - 	 Val. Loss: 4.842 |  Val. BLEU: 0.15 | Val. Perplexity: 126.78
+2024-10-16 11:18:22,862 - INFO - Epoch: 42
+2024-10-16 11:18:22,862 - INFO - 	Train Loss: 0.978
+2024-10-16 11:18:22,862 - INFO - 	 Val. Loss: 4.882 |  Val. BLEU: 0.15 | Val. Perplexity: 131.84
+2024-10-16 11:19:13,346 - INFO - Epoch: 43
+2024-10-16 11:19:13,346 - INFO - 	Train Loss: 0.959
+2024-10-16 11:19:13,346 - INFO - 	 Val. Loss: 4.885 |  Val. BLEU: 0.15 | Val. Perplexity: 132.32
+2024-10-16 11:20:01,821 - INFO - Epoch: 44
+2024-10-16 11:20:01,821 - INFO - 	Train Loss: 0.955
+2024-10-16 11:20:01,821 - INFO - 	 Val. Loss: 4.903 |  Val. BLEU: 0.15 | Val. Perplexity: 134.65
+2024-10-16 11:20:51,887 - INFO - Epoch: 45
+2024-10-16 11:20:51,888 - INFO - 	Train Loss: 0.940
+2024-10-16 11:20:51,888 - INFO - 	 Val. Loss: 4.921 |  Val. BLEU: 0.15 | Val. Perplexity: 137.07
+2024-10-16 11:21:44,308 - INFO - Epoch: 46
+2024-10-16 11:21:44,308 - INFO - 	Train Loss: 0.930
+2024-10-16 11:21:44,308 - INFO - 	 Val. Loss: 4.969 |  Val. BLEU: 0.16 | Val. Perplexity: 143.83
+2024-10-16 11:22:33,472 - INFO - Epoch: 47
+2024-10-16 11:22:33,472 - INFO - 	Train Loss: 0.921
+2024-10-16 11:22:33,472 - INFO - 	 Val. Loss: 4.989 |  Val. BLEU: 0.16 | Val. Perplexity: 146.86
+2024-10-16 11:23:21,994 - INFO - Epoch: 48
+2024-10-16 11:23:21,994 - INFO - 	Train Loss: 0.909
+2024-10-16 11:23:21,994 - INFO - 	 Val. Loss: 4.966 |  Val. BLEU: 0.16 | Val. Perplexity: 143.45
+2024-10-16 11:24:10,532 - INFO - Epoch: 49
+2024-10-16 11:24:10,532 - INFO - 	Train Loss: 0.902
+2024-10-16 11:24:10,533 - INFO - 	 Val. Loss: 4.989 |  Val. BLEU: 0.15 | Val. Perplexity: 146.82
+2024-10-16 11:25:00,066 - INFO - Epoch: 50
+2024-10-16 11:25:00,066 - INFO - 	Train Loss: 0.895
+2024-10-16 11:25:00,066 - INFO - 	 Val. Loss: 5.020 |  Val. BLEU: 0.16 | Val. Perplexity: 151.45
+2024-10-16 11:25:03,873 - INFO - Test Loss: 5.106 | Test BLEU: 0.15 | Test Perplexity: 165.08
+2024-10-16 11:25:03,876 - INFO - Japanese input: こんにちは
+2024-10-16 11:25:03,876 - INFO - English translation: 

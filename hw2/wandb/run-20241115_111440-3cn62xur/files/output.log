@@ -1,0 +1,29 @@
+/data/align-anything/hantao/NLPDL/hw2/train.py:136: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+11/15/2024 11:14:42 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+[2024-11-15 11:14:43,208] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+11/15/2024 11:14:43 - INFO - root - gcc -pthread -B /home/align-anything/miniconda3/envs/hantao_stable/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/align-anything/miniconda3/envs/hantao_stable/include -fPIC -O2 -isystem /home/align-anything/miniconda3/envs/hantao_stable/include -fPIC -c /tmp/tmppb_t6p0j/test.c -o /tmp/tmppb_t6p0j/test.o
+11/15/2024 11:14:43 - INFO - root - gcc -pthread -B /home/align-anything/miniconda3/envs/hantao_stable/compiler_compat /tmp/tmppb_t6p0j/test.o -laio -o /tmp/tmppb_t6p0j/a.out
+11/15/2024 11:14:43 - INFO - root - gcc -pthread -B /home/align-anything/miniconda3/envs/hantao_stable/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/align-anything/miniconda3/envs/hantao_stable/include -fPIC -O2 -isystem /home/align-anything/miniconda3/envs/hantao_stable/include -fPIC -c /tmp/tmpwm2b5goz/test.c -o /tmp/tmpwm2b5goz/test.o
+11/15/2024 11:14:43 - INFO - root - gcc -pthread -B /home/align-anything/miniconda3/envs/hantao_stable/compiler_compat /tmp/tmpwm2b5goz/test.o -L/home/align-anything/miniconda3/envs/hantao_stable -L/home/align-anything/miniconda3/envs/hantao_stable/lib64 -lcufile -o /tmp/tmpwm2b5goz/a.out
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                                                                                                                                                                                                                      | 0/70 [00:00<?, ?it/s]/home/align-anything/miniconda3/envs/hantao_stable/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+Traceback (most recent call last):
+  File "/data/align-anything/hantao/NLPDL/hw2/train.py", line 158, in <module>
+    main()
+  File "/data/align-anything/hantao/NLPDL/hw2/train.py", line 149, in main
+    train_result = trainer.train()
+                   ^^^^^^^^^^^^^^^
+  File "/home/align-anything/miniconda3/envs/hantao_stable/lib/python3.11/site-packages/transformers/trainer.py", line 2085, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/align-anything/miniconda3/envs/hantao_stable/lib/python3.11/site-packages/transformers/trainer.py", line 2421, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/align-anything/miniconda3/envs/hantao_stable/lib/python3.11/site-packages/transformers/trainer.py", line 3524, in training_step
+    loss = self.compute_loss(model, inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/align-anything/miniconda3/envs/hantao_stable/lib/python3.11/site-packages/transformers/trainer.py", line 3589, in compute_loss
+    raise ValueError(
+ValueError: The model did not return a loss from the inputs, only the following keys: logits. For reference, the inputs it received are input_ids,attention_mask.

@@ -1,0 +1,21 @@
+{"time":"2024-11-16T18:35:21.204166238Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T18:35:21.204210322Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241116_183521-0a6oaion/logs/debug-core.log"}
+{"time":"2024-11-16T18:35:21.220658908Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-16T18:35:21.249874386Z","level":"INFO","msg":"created new stream","id":"0a6oaion"}
+{"time":"2024-11-16T18:35:21.249930979Z","level":"INFO","msg":"stream: started","id":"0a6oaion"}
+{"time":"2024-11-16T18:35:21.249978665Z","level":"INFO","msg":"handler: started","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:35:21.250069491Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:35:21.250075561Z","level":"INFO","msg":"sender: started","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:35:21.927111171Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T18:35:21.934263103Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T18:36:11.81284474Z","level":"INFO","msg":"stream: closing","id":"0a6oaion"}
+{"time":"2024-11-16T18:36:11.813085915Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T18:36:11.841336391Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T18:36:12.545964086Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-16T18:36:12.545997886Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-16T18:36:12.546010251Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-16T18:36:13.521070464Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-16T18:36:13.933219135Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:36:13.933261173Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:36:13.933283788Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"0a6oaion"}}
+{"time":"2024-11-16T18:36:13.935679186Z","level":"INFO","msg":"stream: closed","id":"0a6oaion"}

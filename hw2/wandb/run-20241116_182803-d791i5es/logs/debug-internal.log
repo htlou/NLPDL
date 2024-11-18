@@ -1,0 +1,21 @@
+{"time":"2024-11-16T18:28:03.460710825Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T18:28:03.46075688Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241116_182803-d791i5es/logs/debug-core.log"}
+{"time":"2024-11-16T18:28:03.474796327Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-16T18:28:03.512817599Z","level":"INFO","msg":"created new stream","id":"d791i5es"}
+{"time":"2024-11-16T18:28:03.512910675Z","level":"INFO","msg":"stream: started","id":"d791i5es"}
+{"time":"2024-11-16T18:28:03.512975258Z","level":"INFO","msg":"handler: started","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:03.513031383Z","level":"INFO","msg":"sender: started","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:03.513114338Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:04.093539817Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T18:28:04.100444594Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T18:28:17.470332642Z","level":"INFO","msg":"stream: closing","id":"d791i5es"}
+{"time":"2024-11-16T18:28:17.470699956Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T18:28:17.49827602Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T18:28:17.784076486Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-16T18:28:17.784115955Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-16T18:28:17.784126405Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-16T18:28:19.041708187Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-16T18:28:19.472582257Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:19.472667946Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:19.47267714Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"d791i5es"}}
+{"time":"2024-11-16T18:28:19.475363779Z","level":"INFO","msg":"stream: closed","id":"d791i5es"}

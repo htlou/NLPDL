@@ -1,0 +1,57 @@
+[2024-11-15 11:44:42,634] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+11/15/2024 11:44:43 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmp7obv3_k0/test.c -o /tmp/tmp7obv3_k0/test.o
+11/15/2024 11:44:43 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmp7obv3_k0/test.o -laio -o /tmp/tmp7obv3_k0/a.out
+11/15/2024 11:44:43 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmp1s7qtk_u/test.c -o /tmp/tmp1s7qtk_u/test.o
+11/15/2024 11:44:43 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmp1s7qtk_u/test.o -L/data/align-anything/miniconda3/envs/hantao_cham -L/data/align-anything/miniconda3/envs/hantao_cham/lib64 -lcufile -o /tmp/tmp1s7qtk_u/a.out
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                                                                                                                                                                                                                     | 0/321 [00:00<?, ?it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 33%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                                                                                                            | 107/321 [01:06<01:31,  2.34it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+{'loss': 1.3796, 'grad_norm': 3.1352224349975586, 'learning_rate': 1.9376947040498444e-05, 'epoch': 0.09}
+{'loss': 1.221, 'grad_norm': 4.421402454376221, 'learning_rate': 1.8753894080996886e-05, 'epoch': 0.19}
+{'loss': 0.7325, 'grad_norm': 4.201964855194092, 'learning_rate': 1.8130841121495328e-05, 'epoch': 0.28}
+{'loss': 0.4464, 'grad_norm': 10.334378242492676, 'learning_rate': 1.750778816199377e-05, 'epoch': 0.37}
+{'loss': 0.4079, 'grad_norm': 6.01585578918457, 'learning_rate': 1.688473520249221e-05, 'epoch': 0.47}
+{'loss': 0.3834, 'grad_norm': 9.12269401550293, 'learning_rate': 1.6261682242990654e-05, 'epoch': 0.56}
+{'loss': 0.3362, 'grad_norm': 11.876049995422363, 'learning_rate': 1.56386292834891e-05, 'epoch': 0.65}
+{'loss': 0.3691, 'grad_norm': 8.987760543823242, 'learning_rate': 1.501557632398754e-05, 'epoch': 0.75}
+{'loss': 0.3347, 'grad_norm': 5.362739086151123, 'learning_rate': 1.4392523364485981e-05, 'epoch': 0.84}
+{'loss': 0.2799, 'grad_norm': 2.80360746383667, 'learning_rate': 1.3769470404984425e-05, 'epoch': 0.93}
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):                                                                                                                                                                                                                                  
+{'eval_loss': 0.2415565848350525, 'eval_accuracy': 0.9236842105263158, 'eval_micro_f1': 0.9236842105263158, 'eval_macro_f1': 0.9219392065649823, 'eval_runtime': 8.2595, 'eval_samples_per_second': 92.015, 'eval_steps_per_second': 1.453, 'epoch': 1.0}
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 57%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                        | 184/321 [01:46<01:05,  2.10it/s]Traceback (most recent call last):
+{'loss': 0.2988, 'grad_norm': 6.526034355163574, 'learning_rate': 1.3146417445482867e-05, 'epoch': 1.03}
+{'loss': 0.2616, 'grad_norm': 11.035667419433594, 'learning_rate': 1.2523364485981309e-05, 'epoch': 1.12}
+{'loss': 0.2258, 'grad_norm': 7.088553428649902, 'learning_rate': 1.1900311526479751e-05, 'epoch': 1.21}
+{'loss': 0.3003, 'grad_norm': 5.526578426361084, 'learning_rate': 1.1277258566978193e-05, 'epoch': 1.31}
+{'loss': 0.2361, 'grad_norm': 4.2938551902771, 'learning_rate': 1.0654205607476635e-05, 'epoch': 1.4}
+{'loss': 0.2659, 'grad_norm': 5.6545610427856445, 'learning_rate': 1.0031152647975077e-05, 'epoch': 1.5}
+{'loss': 0.2126, 'grad_norm': 8.008330345153809, 'learning_rate': 9.40809968847352e-06, 'epoch': 1.59}
+{'loss': 0.2657, 'grad_norm': 5.258539199829102, 'learning_rate': 8.785046728971963e-06, 'epoch': 1.68}
+  File "/data/align-anything/hantao/NLPDL/hw2/train.py", line 167, in <module>
+    main()
+  File "/data/align-anything/hantao/NLPDL/hw2/train.py", line 157, in main
+    train_result = trainer.train()
+                   ^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 3349, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/accelerate/accelerator.py", line 2246, in backward
+    loss.backward(**kwargs)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/autograd/graph.py", line 768, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

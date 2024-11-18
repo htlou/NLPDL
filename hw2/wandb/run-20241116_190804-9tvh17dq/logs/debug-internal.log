@@ -1,0 +1,21 @@
+{"time":"2024-11-16T19:08:04.118779393Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T19:08:04.118822748Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241116_190804-9tvh17dq/logs/debug-core.log"}
+{"time":"2024-11-16T19:08:04.129993243Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-16T19:08:04.156070795Z","level":"INFO","msg":"created new stream","id":"9tvh17dq"}
+{"time":"2024-11-16T19:08:04.156131049Z","level":"INFO","msg":"stream: started","id":"9tvh17dq"}
+{"time":"2024-11-16T19:08:04.156170146Z","level":"INFO","msg":"handler: started","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:08:04.156263945Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:08:04.156260208Z","level":"INFO","msg":"sender: started","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:08:04.697319913Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T19:08:04.70341082Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T19:09:53.889895999Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T19:09:53.91533736Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T19:09:54.228690736Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-16T19:09:54.228732211Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-16T19:09:54.228743121Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-16T19:09:55.684575333Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-16T19:09:58.026375052Z","level":"INFO","msg":"stream: closing","id":"9tvh17dq"}
+{"time":"2024-11-16T19:09:58.026402122Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:09:58.026427656Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:09:58.026438547Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"9tvh17dq"}}
+{"time":"2024-11-16T19:09:58.030226182Z","level":"INFO","msg":"stream: closed","id":"9tvh17dq"}

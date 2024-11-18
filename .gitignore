@@ -1,0 +1,9 @@
+*.model
+*.pt
+*.json
+*.txt
+*.csv
+*.jsonl
+*.safetensors
+*.pth
+*.bin

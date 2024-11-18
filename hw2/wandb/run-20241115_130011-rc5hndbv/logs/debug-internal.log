@@ -1,0 +1,21 @@
+{"time":"2024-11-15T13:00:11.045656581Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-15T13:00:11.045677568Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241115_130011-rc5hndbv/logs/debug-core.log"}
+{"time":"2024-11-15T13:00:11.051725237Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-15T13:00:11.092757012Z","level":"INFO","msg":"created new stream","id":"rc5hndbv"}
+{"time":"2024-11-15T13:00:11.09287584Z","level":"INFO","msg":"stream: started","id":"rc5hndbv"}
+{"time":"2024-11-15T13:00:11.092955188Z","level":"INFO","msg":"handler: started","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:00:11.092998919Z","level":"INFO","msg":"sender: started","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:00:11.093099074Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:00:12.514325977Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-15T13:00:12.520436366Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T13:02:46.666363689Z","level":"INFO","msg":"stream: closing","id":"rc5hndbv"}
+{"time":"2024-11-15T13:02:46.666509764Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T13:02:46.701012581Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T13:02:46.961348963Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-15T13:02:46.961384055Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-15T13:02:46.961394585Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-15T13:02:47.86633893Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T13:02:48.509824463Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:02:48.509908563Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:02:48.509953035Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"rc5hndbv"}}
+{"time":"2024-11-15T13:02:48.512834051Z","level":"INFO","msg":"stream: closed","id":"rc5hndbv"}

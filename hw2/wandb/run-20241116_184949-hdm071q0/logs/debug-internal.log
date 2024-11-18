@@ -1,0 +1,21 @@
+{"time":"2024-11-16T18:49:49.057517336Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T18:49:49.057563315Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241116_184949-hdm071q0/logs/debug-core.log"}
+{"time":"2024-11-16T18:49:49.059626068Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-16T18:49:49.085363098Z","level":"INFO","msg":"created new stream","id":"hdm071q0"}
+{"time":"2024-11-16T18:49:49.085416003Z","level":"INFO","msg":"stream: started","id":"hdm071q0"}
+{"time":"2024-11-16T18:49:49.085457883Z","level":"INFO","msg":"handler: started","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:49:49.085544291Z","level":"INFO","msg":"sender: started","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:49:49.085551759Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:49:49.812037079Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T18:49:49.819174833Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T18:51:48.569553509Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T18:51:48.602660264Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T18:51:48.872638866Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-16T18:51:48.87267277Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-16T18:51:48.872683259Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-16T18:51:50.529517173Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-16T18:51:52.435762271Z","level":"INFO","msg":"stream: closing","id":"hdm071q0"}
+{"time":"2024-11-16T18:51:52.435795786Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:51:52.435822501Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:51:52.435921364Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"hdm071q0"}}
+{"time":"2024-11-16T18:51:52.43885889Z","level":"INFO","msg":"stream: closed","id":"hdm071q0"}

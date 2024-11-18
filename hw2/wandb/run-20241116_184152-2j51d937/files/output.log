@@ -1,0 +1,111 @@
+[2024-11-16 18:41:55,568] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+11/16/2024 18:41:56 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmpwj18_uv9/test.c -o /tmp/tmpwj18_uv9/test.o
+11/16/2024 18:41:56 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmpwj18_uv9/test.o -laio -o /tmp/tmpwj18_uv9/a.out
+11/16/2024 18:41:56 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -fPIC -O2 -isystem /data/align-anything/miniconda3/envs/hantao_cham/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/align-anything/miniconda3/envs/jy-s/include -I/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/include -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs -c /tmp/tmp8d2tiwl4/test.c -o /tmp/tmp8d2tiwl4/test.o
+11/16/2024 18:41:56 - INFO - root - /data/align-anything/miniconda3/envs/jy-s/bin/x86_64-conda-linux-gnu-cc -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/align-anything/miniconda3/envs/jy-s/lib -Wl,-rpath-link,/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib -L/data/align-anything/miniconda3/envs/jy-s/targets/x86_64-linux/lib/stubs /tmp/tmp8d2tiwl4/test.o -L/data/align-anything/miniconda3/envs/hantao_cham -L/data/align-anything/miniconda3/envs/hantao_cham/lib64 -lcufile -o /tmp/tmp8d2tiwl4/a.out
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                                                                                 | 0/135 [00:00<?, ?it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 20%|██████████████████████████████▍                                                                                                                         | 27/135 [00:27<00:34,  3.15it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):                                                                                              
+{'eval_loss': 1.6436222791671753, 'eval_accuracy': 0.5107913669064749, 'eval_micro_f1': 0.5107913669064749, 'eval_macro_f1': 0.1126984126984127, 'eval_runtime': 10.8645, 'eval_samples_per_second': 12.794, 'eval_steps_per_second': 0.276, 'epoch': 1.0}
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 40%|████████████████████████████████████████████████████████████▊                                                                                           | 54/135 [00:50<00:34,  2.36it/s]/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):                                                                                              
+{'eval_loss': 1.467155933380127, 'eval_accuracy': 0.5107913669064749, 'eval_micro_f1': 0.5107913669064749, 'eval_macro_f1': 0.1126984126984127, 'eval_runtime': 9.1317, 'eval_samples_per_second': 15.222, 'eval_steps_per_second': 0.329, 'epoch': 2.0}
+/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 60%|███████████████████████████████████████████████████████████████████████████████████████████▏                                                            | 81/135 [01:05<00:24,  2.23it/s]Traceback (most recent call last):
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 165, in <module>██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  5.84it/s]
+    main()
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 162, in main
+    train_and_evaluate(data_args, model_args, training_args)
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 133, in train_and_evaluate
+    train_result = trainer.train()
+                   ^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2376, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2804, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 2761, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 3666, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/transformers/trainer.py", line 3956, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/hantao/NLPDL/hw2/adapter_train.py", line 102, in compute_metrics
+    f1_macro_metric = evaluate.load("f1")
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/loading.py", line 748, in load
+    evaluation_module = evaluation_module_factory(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/loading.py", line 639, in evaluation_module_factory
+    ).get_module()
+      ^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/loading.py", line 479, in get_module
+    local_path = self.download_loading_script(revision)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/loading.py", line 469, in download_loading_script
+    return cached_path(file_path, download_config=download_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/utils/file_utils.py", line 175, in cached_path
+    output_path = get_from_cache(
+                  ^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/utils/file_utils.py", line 457, in get_from_cache
+    response = http_head(
+               ^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/utils/file_utils.py", line 378, in http_head
+    response = _request_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/evaluate/utils/file_utils.py", line 307, in _request_with_retry
+    response = requests.request(method=method.upper(), url=url, timeout=timeout, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/http/client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

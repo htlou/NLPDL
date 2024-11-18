@@ -1,0 +1,836 @@
+2024-11-17 05:13:49 INFO open for scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/run-b76c3yym.wandb
+2024-11-17 05:13:50 INFO watching files in: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files
+2024-11-17 05:13:50 INFO run started: b76c3yym with start time 1731787847.01243
+2024-11-17 05:13:50 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:13:50 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:13:50 INFO saving file requirements.txt with policy now
+2024-11-17 05:13:50 WARNING Seen metric with glob (shouldn't happen)
+2024-11-17 05:13:51 ERROR Failed to upload file: /tmp/tmp8qh_pou8/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp8qh_pou8/model_architecture.txt'
+2024-11-17 05:13:52 INFO Uploaded file /tmp/tmpf3zsszpiwandb/ngmb3qxj-requirements.txt
+2024-11-17 05:13:52 ERROR Failed to upload file: /tmp/tmp8qh_pou8/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 223, in run_and_notify
+    self._do_upload(event)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 243, in _do_upload
+    job.run()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    self.push()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp8qh_pou8/model_architecture.txt'
+2024-11-17 05:13:52 ERROR send_artifact: failed for artifact "model/model-b76c3yym": [Errno 2] No such file or directory: '/tmp/tmp8qh_pou8/model_architecture.txt'
+2024-11-17 05:13:52 INFO Uploaded file /tmp/tmpf3zsszpiwandb/1n0q8ohb-wandb-metadata.json
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:52 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/output.log
+2024-11-17 05:13:53 INFO file/dir created: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/wandb-summary.json
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:13:53 INFO shutting down sender
+2024-11-17 05:13:53 INFO Uploaded file /tmp/tmpf3zsszpiwandb/hj5msxt5-wandb-metadata.json
+2024-11-17 05:13:54 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/wandb-summary.json
+2024-11-17 05:13:54 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/output.log
+2024-11-17 05:13:56 INFO shutting down directory watcher
+2024-11-17 05:13:56 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/output.log
+2024-11-17 05:13:56 INFO scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files
+2024-11-17 05:13:56 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/wandb-metadata.json wandb-metadata.json
+2024-11-17 05:13:56 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/requirements.txt requirements.txt
+2024-11-17 05:13:56 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/output.log output.log
+2024-11-17 05:13:56 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/wandb-summary.json wandb-summary.json
+2024-11-17 05:13:56 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/config.yaml config.yaml
+2024-11-17 05:13:56 INFO shutting down file pusher
+2024-11-17 05:13:56 INFO waiting for file pusher
+2024-11-17 05:13:56 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/wandb-summary.json
+2024-11-17 05:13:57 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/output.log
+2024-11-17 05:13:57 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_201046-b76c3yym/files/config.yaml
+2024-11-17 05:13:58 INFO file stream finish called
+2024-11-17 05:13:59 INFO file stream finish is done
+2024-11-17 05:14:13 INFO open for scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/run-o0t00eav.wandb
+2024-11-17 05:14:13 INFO watching files in: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:14:13 INFO run started: o0t00eav with start time 1731785389.480648
+2024-11-17 05:14:13 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:14:13 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:14:13 INFO saving file requirements.txt with policy now
+2024-11-17 05:14:13 WARNING Seen metric with glob (shouldn't happen)
+2024-11-17 05:14:14 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:15 ERROR 404 response executing GraphQL.
+2024-11-17 05:14:15 ERROR {"errors":[{"message":"project not found","path":["createArtifactManifest"]}],"data":{"createArtifactManifest":null}}
+2024-11-17 05:14:15 ERROR send_artifact: failed for artifact "model/model-o0t00eav": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:14:15 INFO shutting down sender
+2024-11-17 05:14:15 INFO Uploaded file /tmp/tmpwaqcfzu_wandb/hnli28v0-wandb-metadata.json
+2024-11-17 05:14:15 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:14:16 INFO Uploaded file /tmp/tmpwaqcfzu_wandb/54l5w5qb-requirements.txt
+2024-11-17 05:14:16 INFO Uploaded file /tmp/tmpwaqcfzu_wandb/qq0n7xja-wandb-metadata.json
+2024-11-17 05:14:16 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:18 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:19 INFO shutting down directory watcher
+2024-11-17 05:14:20 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:20 INFO scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:14:20 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log output.log
+2024-11-17 05:14:20 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json wandb-summary.json
+2024-11-17 05:14:20 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml config.yaml
+2024-11-17 05:14:20 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/requirements.txt requirements.txt
+2024-11-17 05:14:20 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-metadata.json wandb-metadata.json
+2024-11-17 05:14:20 INFO shutting down file pusher
+2024-11-17 05:14:20 INFO waiting for file pusher
+2024-11-17 05:14:21 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:14:22 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:22 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml
+2024-11-17 05:14:23 INFO file stream finish called
+2024-11-17 05:14:24 INFO file stream finish is done
+2024-11-17 05:14:57 INFO open for scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/run-o0t00eav.wandb
+2024-11-17 05:14:58 INFO watching files in: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:14:58 INFO run started: o0t00eav with start time 1731785389.480648
+2024-11-17 05:14:58 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:14:58 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:14:58 INFO saving file requirements.txt with policy now
+2024-11-17 05:14:58 WARNING Seen metric with glob (shouldn't happen)
+2024-11-17 05:14:59 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:14:59 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:00 INFO Uploaded file /tmp/tmpr98xzr1lwandb/l0in8825-requirements.txt
+2024-11-17 05:15:00 INFO Uploaded file /tmp/tmpr98xzr1lwandb/7mirc937-wandb-metadata.json
+2024-11-17 05:15:00 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 223, in run_and_notify
+    self._do_upload(event)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 243, in _do_upload
+    job.run()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    self.push()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:00 ERROR send_artifact: failed for artifact "model/model-o0t00eav": [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:00 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:01 INFO shutting down sender
+2024-11-17 05:15:01 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:01 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:15:01 INFO Uploaded file /tmp/tmpr98xzr1lwandb/xu5i1eyy-wandb-metadata.json
+2024-11-17 05:15:03 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:04 INFO shutting down directory watcher
+2024-11-17 05:15:05 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:05 INFO scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:15:05 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log output.log
+2024-11-17 05:15:05 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json wandb-summary.json
+2024-11-17 05:15:05 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml config.yaml
+2024-11-17 05:15:05 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/requirements.txt requirements.txt
+2024-11-17 05:15:05 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-metadata.json wandb-metadata.json
+2024-11-17 05:15:05 INFO shutting down file pusher
+2024-11-17 05:15:05 INFO waiting for file pusher
+2024-11-17 05:15:06 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml
+2024-11-17 05:15:06 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:07 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:15:07 INFO file stream finish called
+2024-11-17 05:15:08 INFO file stream finish is done
+2024-11-17 05:15:47 INFO open for scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/run-o0t00eav.wandb
+2024-11-17 05:15:48 INFO watching files in: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:15:48 INFO run started: o0t00eav with start time 1731785389.480648
+2024-11-17 05:15:48 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:15:48 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:15:48 INFO saving file requirements.txt with policy now
+2024-11-17 05:15:48 WARNING Seen metric with glob (shouldn't happen)
+2024-11-17 05:15:49 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:49 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:50 INFO Uploaded file /tmp/tmp7x6dx21owandb/co9wyk8v-requirements.txt
+2024-11-17 05:15:50 INFO Uploaded file /tmp/tmp7x6dx21owandb/fnn2z5w0-wandb-metadata.json
+2024-11-17 05:15:50 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 223, in run_and_notify
+    self._do_upload(event)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 243, in _do_upload
+    job.run()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    self.push()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 256, in default_file_upload
+    with open(file_path, "rb") as file:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:50 ERROR send_artifact: failed for artifact "model/model-o0t00eav": [Errno 2] No such file or directory: '/tmp/tmpcfg8wi7m/model_architecture.txt'
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:50 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:15:51 INFO shutting down sender
+2024-11-17 05:15:51 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:51 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:15:52 INFO Uploaded file /tmp/tmp7x6dx21owandb/4otvxrga-wandb-metadata.json
+2024-11-17 05:15:53 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:54 INFO shutting down directory watcher
+2024-11-17 05:15:55 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:15:55 INFO scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:15:55 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log output.log
+2024-11-17 05:15:55 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json wandb-summary.json
+2024-11-17 05:15:55 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml config.yaml
+2024-11-17 05:15:55 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/requirements.txt requirements.txt
+2024-11-17 05:15:55 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-metadata.json wandb-metadata.json
+2024-11-17 05:15:55 INFO shutting down file pusher
+2024-11-17 05:15:55 INFO waiting for file pusher
+2024-11-17 05:16:17 INFO open for scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/run-o0t00eav.wandb
+2024-11-17 05:16:18 INFO watching files in: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:16:18 INFO run started: o0t00eav with start time 1731785389.480648
+2024-11-17 05:16:18 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:16:18 INFO saving file wandb-metadata.json with policy now
+2024-11-17 05:16:18 INFO saving file requirements.txt with policy now
+2024-11-17 05:16:18 WARNING Seen metric with glob (shouldn't happen)
+2024-11-17 05:16:19 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:16:20 INFO Uploaded file /tmp/tmpi_9xpkdzwandb/zklttixn-wandb-metadata.json
+2024-11-17 05:16:20 INFO Uploaded file /tmp/tmpi_9xpkdzwandb/dx740vtt-requirements.txt
+2024-11-17 05:16:21 ERROR upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/496541805/1338429594/d8ce1db6f9cc3757c5bafb917b88d5a8?Expires=1731906979&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=OwbttEx6ZsPDQEWPLdfmrF6Z2QNM54AZnNaBmB5xrlDSmA7VsjjxKDahc%2F%2BbMuXMph5nGA0p1PrwuVgjZBsYKUrRo7QDuKazVxAakBhZXmWTqgxsFnRp4Js9rcmxDhKM0%2BJ2xc1bKmlrS2sBMZoHsK9unWlThtTEM7BniOPULy1lSoCPZySFRGumpF3E8JtW2Lf8Y%2BJQZJEXNRoE2v0TJn5EiHoIY7zR7v9F%2FUqexHHXDKBbSSdDljaohm15jItt9zhY1arttU1Piu56SL8cdNFaGoqbh5XaRzEhp3TP5%2F03gHEaBcD%2F8kLhxIcWN1%2F%2BG9by71G0vB0Bl19XCDlPrQ%3D%3D: 400 Client Error: Bad Request for url: https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/496541805/1338429594/d8ce1db6f9cc3757c5bafb917b88d5a8?Expires=1731906979&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=OwbttEx6ZsPDQEWPLdfmrF6Z2QNM54AZnNaBmB5xrlDSmA7VsjjxKDahc%2F%2BbMuXMph5nGA0p1PrwuVgjZBsYKUrRo7QDuKazVxAakBhZXmWTqgxsFnRp4Js9rcmxDhKM0%2BJ2xc1bKmlrS2sBMZoHsK9unWlThtTEM7BniOPULy1lSoCPZySFRGumpF3E8JtW2Lf8Y%2BJQZJEXNRoE2v0TJn5EiHoIY7zR7v9F%2FUqexHHXDKBbSSdDljaohm15jItt9zhY1arttU1Piu56SL8cdNFaGoqbh5XaRzEhp3TP5%2F03gHEaBcD%2F8kLhxIcWN1%2F%2BG9by71G0vB0Bl19XCDlPrQ%3D%3D
+2024-11-17 05:16:21 ERROR upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': '2M4dtvnMN1fFuvuRe4jVqA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '0'}
+2024-11-17 05:16:21 ERROR upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>BadDigest</Code><Message>The MD5 you specified in Content-MD5 or x-goog-hash did not match what we computed.</Message><Details>wandb-artifacts-prod/wandb_artifacts/496541805/1338429594/d8ce1db6f9cc3757c5bafb917b88d5a8</Details></Error>"
+2024-11-17 05:16:21 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:16:21 INFO Uploaded file /tmp/tmpi_9xpkdzwandb/8bzg9y8k-wandb-metadata.json
+2024-11-17 05:16:21 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2984, in upload_file
+    wandb._sentry.reraise(e)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/analytics/sentry.py", line 155, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2956, in upload_file
+    response.raise_for_status()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/496541805/1338429594/d8ce1db6f9cc3757c5bafb917b88d5a8?Expires=1731906979&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=OwbttEx6ZsPDQEWPLdfmrF6Z2QNM54AZnNaBmB5xrlDSmA7VsjjxKDahc%2F%2BbMuXMph5nGA0p1PrwuVgjZBsYKUrRo7QDuKazVxAakBhZXmWTqgxsFnRp4Js9rcmxDhKM0%2BJ2xc1bKmlrS2sBMZoHsK9unWlThtTEM7BniOPULy1lSoCPZySFRGumpF3E8JtW2Lf8Y%2BJQZJEXNRoE2v0TJn5EiHoIY7zR7v9F%2FUqexHHXDKBbSSdDljaohm15jItt9zhY1arttU1Piu56SL8cdNFaGoqbh5XaRzEhp3TP5%2F03gHEaBcD%2F8kLhxIcWN1%2F%2BG9by71G0vB0Bl19XCDlPrQ%3D%3D
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 258, in default_file_upload
+    self._api.upload_file_retry(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.errors.CommError: <Response [400]>
+2024-11-17 05:16:21 ERROR Failed to upload file: /tmp/tmpcfg8wi7m/model_architecture.txt
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2984, in upload_file
+    wandb._sentry.reraise(e)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/analytics/sentry.py", line 155, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2956, in upload_file
+    response.raise_for_status()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/496541805/1338429594/d8ce1db6f9cc3757c5bafb917b88d5a8?Expires=1731906979&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=OwbttEx6ZsPDQEWPLdfmrF6Z2QNM54AZnNaBmB5xrlDSmA7VsjjxKDahc%2F%2BbMuXMph5nGA0p1PrwuVgjZBsYKUrRo7QDuKazVxAakBhZXmWTqgxsFnRp4Js9rcmxDhKM0%2BJ2xc1bKmlrS2sBMZoHsK9unWlThtTEM7BniOPULy1lSoCPZySFRGumpF3E8JtW2Lf8Y%2BJQZJEXNRoE2v0TJn5EiHoIY7zR7v9F%2FUqexHHXDKBbSSdDljaohm15jItt9zhY1arttU1Piu56SL8cdNFaGoqbh5XaRzEhp3TP5%2F03gHEaBcD%2F8kLhxIcWN1%2F%2BG9by71G0vB0Bl19XCDlPrQ%3D%3D
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 223, in run_and_notify
+    self._do_upload(event)
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/step_upload.py", line 243, in _do_upload
+    job.run()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    self.push()
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/filesync/upload_job.py", line 68, in push
+    deduped = self.save_fn(
+              ^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact_saver.py", line 184, in <lambda>
+    lambda entry, progress_callback: self._manifest.storage_policy.store_file(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 335, in store_file
+    self.default_file_upload(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/sdk/artifacts/storage_policies/wandb_storage_policy.py", line 258, in default_file_upload
+    self._api.upload_file_retry(
+  File "/data/align-anything/miniconda3/envs/hantao_cham/lib/python3.11/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.errors.CommError: <Response [400]>
+2024-11-17 05:16:21 ERROR send_artifact: failed for artifact "model/model-o0t00eav": <Response [400]>
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:21 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO saving file wandb-summary.json with policy end
+2024-11-17 05:16:22 INFO shutting down sender
+2024-11-17 05:16:23 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:16:24 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:16:24 INFO shutting down directory watcher
+2024-11-17 05:16:25 INFO file/dir modified: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:16:25 INFO scan: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files
+2024-11-17 05:16:25 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log output.log
+2024-11-17 05:16:25 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json wandb-summary.json
+2024-11-17 05:16:25 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml config.yaml
+2024-11-17 05:16:25 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/requirements.txt requirements.txt
+2024-11-17 05:16:25 INFO scan save: /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-metadata.json wandb-metadata.json
+2024-11-17 05:16:25 INFO shutting down file pusher
+2024-11-17 05:16:25 INFO waiting for file pusher
+2024-11-17 05:16:26 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/wandb-summary.json
+2024-11-17 05:16:26 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/output.log
+2024-11-17 05:16:26 INFO Uploaded file /data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_192949-o0t00eav/files/config.yaml
+2024-11-17 05:16:26 INFO file stream finish called
+2024-11-17 05:16:28 INFO file stream finish is done

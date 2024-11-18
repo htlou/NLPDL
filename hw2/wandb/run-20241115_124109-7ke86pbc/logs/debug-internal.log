@@ -1,0 +1,23 @@
+{"time":"2024-11-15T12:41:09.705021925Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-15T12:41:09.705063611Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241115_124109-7ke86pbc/logs/debug-core.log"}
+{"time":"2024-11-15T12:41:09.707170515Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-15T12:41:09.73697581Z","level":"INFO","msg":"created new stream","id":"7ke86pbc"}
+{"time":"2024-11-15T12:41:09.737076752Z","level":"INFO","msg":"stream: started","id":"7ke86pbc"}
+{"time":"2024-11-15T12:41:09.737142059Z","level":"INFO","msg":"sender: started","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:41:09.737147674Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:41:09.737221731Z","level":"INFO","msg":"handler: started","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:41:10.975361653Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-15T12:41:10.982201942Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T12:43:32.962388638Z","level":"INFO","msg":"stream: closing","id":"7ke86pbc"}
+{"time":"2024-11-15T12:43:32.962547721Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T12:43:32.995542365Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T12:43:33.484248347Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-15T12:43:33.484302358Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-15T12:43:33.484313445Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-15T12:43:34.214155047Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T12:43:37.968224452Z","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-11-15T12:45:44.714039235Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/htlou/nlp-classification/7ke86pbc/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2024-11-15T12:45:47.578490524Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:45:47.578585398Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:45:47.578609285Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"7ke86pbc"}}
+{"time":"2024-11-15T12:45:47.581113325Z","level":"INFO","msg":"stream: closed","id":"7ke86pbc"}

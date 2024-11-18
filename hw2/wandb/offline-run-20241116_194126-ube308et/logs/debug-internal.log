@@ -1,0 +1,16 @@
+{"time":"2024-11-16T19:41:26.567101376Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-16T19:41:26.567153093Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/offline-run-20241116_194126-ube308et/logs/debug-core.log"}
+{"time":"2024-11-16T19:41:26.596539707Z","level":"INFO","msg":"created new stream","id":"ube308et"}
+{"time":"2024-11-16T19:41:26.596648447Z","level":"INFO","msg":"stream: started","id":"ube308et"}
+{"time":"2024-11-16T19:41:26.596725723Z","level":"INFO","msg":"handler: started","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:41:26.596787004Z","level":"INFO","msg":"sender: started","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:41:26.596884774Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:41:26.61527713Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-16T19:41:26.663552983Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-16T19:43:15.279160355Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-16T19:43:15.31193605Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-16T19:43:16.329830051Z","level":"INFO","msg":"stream: closing","id":"ube308et"}
+{"time":"2024-11-16T19:43:16.32987466Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:43:16.329903368Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:43:16.329916628Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"ube308et"}}
+{"time":"2024-11-16T19:43:16.332959397Z","level":"INFO","msg":"stream: closed","id":"ube308et"}

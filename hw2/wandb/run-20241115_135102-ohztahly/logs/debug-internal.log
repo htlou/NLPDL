@@ -1,0 +1,21 @@
+{"time":"2024-11-15T13:51:02.866063299Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-15T13:51:02.86610429Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/hw2/wandb/run-20241115_135102-ohztahly/logs/debug-core.log"}
+{"time":"2024-11-15T13:51:02.868223472Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-15T13:51:02.894461241Z","level":"INFO","msg":"created new stream","id":"ohztahly"}
+{"time":"2024-11-15T13:51:02.89456733Z","level":"INFO","msg":"stream: started","id":"ohztahly"}
+{"time":"2024-11-15T13:51:02.894653385Z","level":"INFO","msg":"handler: started","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:02.894728873Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:02.894680182Z","level":"INFO","msg":"sender: started","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:03.49062781Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-15T13:51:03.497726521Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T13:51:52.514561328Z","level":"INFO","msg":"stream: closing","id":"ohztahly"}
+{"time":"2024-11-15T13:51:52.514796888Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T13:51:52.547850766Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T13:51:52.801104056Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-15T13:51:52.801156079Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-15T13:51:52.801166739Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-15T13:51:53.667787926Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T13:51:55.021340362Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:55.021433924Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:55.021424565Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ohztahly"}}
+{"time":"2024-11-15T13:51:55.025775034Z","level":"INFO","msg":"stream: closed","id":"ohztahly"}
