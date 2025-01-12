@@ -1,0 +1,19 @@
+{"time":"2024-12-26T23:25:51.310604294Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-26T23:25:51.31063685Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_50/wandb/run-20241226_232551-v8lic3em/logs/debug-core.log"}
+{"time":"2024-12-26T23:25:51.429175971Z","level":"INFO","msg":"created new stream","id":"v8lic3em"}
+{"time":"2024-12-26T23:25:51.429239313Z","level":"INFO","msg":"stream: started","id":"v8lic3em"}
+{"time":"2024-12-26T23:25:51.429265026Z","level":"INFO","msg":"writer: Do: started","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:25:51.429289722Z","level":"INFO","msg":"handler: started","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:25:51.429281411Z","level":"INFO","msg":"sender: started","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:25:52.001040058Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-26T23:26:33.198777199Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-26T23:26:33.200070172Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-26T23:26:33.480022046Z","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-12-26T23:26:33.48006216Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-26T23:26:34.164232894Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-26T23:26:34.588385814Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-26T23:26:36.109094741Z","level":"INFO","msg":"stream: closing","id":"v8lic3em"}
+{"time":"2024-12-26T23:26:36.109138241Z","level":"INFO","msg":"handler: closed","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:26:36.10915504Z","level":"INFO","msg":"writer: Close: closed","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:26:36.109164305Z","level":"INFO","msg":"sender: closed","stream_id":"v8lic3em"}
+{"time":"2024-12-26T23:26:36.11038585Z","level":"INFO","msg":"stream: closed","id":"v8lic3em"}

@@ -1,0 +1,33 @@
+2024-12-26 23:20:03,214 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Configure stats pid to 2564089
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Loading settings from /home/align-anything/.config/wandb/settings
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Loading settings from /data/align-anything/hantao/NLPDL/project/NLPDL-project/train/scripts/wandb/settings
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-12-26 23:20:03,215 WARNING MainThread:2564089 [wandb_setup.py:_flush():79] Could not find program at -m safe_rlhf.finetune.__main__
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m safe_rlhf.finetune.__main__'}
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_init.py:_log_setup():533] Logging user logs to /data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_1/wandb/run-20241226_232003-02zvxuyb/logs/debug.log
+2024-12-26 23:20:03,215 INFO    MainThread:2564089 [wandb_init.py:_log_setup():534] Logging internal logs to /data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_1/wandb/run-20241226_232003-02zvxuyb/logs/debug-internal.log
+2024-12-26 23:20:03,216 INFO    MainThread:2564089 [wandb_init.py:init():619] calling init triggers
+2024-12-26 23:20:03,216 INFO    MainThread:2564089 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'model_name_or_path': '/data/align-anything/hantao/models/alpaca-7b-reproduced', 'max_length': 2048, 'trust_remote_code': True, 'train_datasets': [('nlpdl-supervised', {'proportion': 1.0, 'path': '/data/align-anything/hantao/NLPDL/project/NLPDL-project/data/safety/processed/supervised_train_1.json'})], 'eval_datasets': None, 'epochs': 3, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 4, 'gradient_accumulation_steps': 2, 'gradient_checkpointing': True, 'lr': 1e-06, 'lr_scheduler_type': <SchedulerType.COSINE: 'cosine'>, 'lr_warmup_ratio': 0.03, 'weight_decay': 0.05, 'seed': 42, 'fp16': False, 'bf16': True, 'tf32': True, 'eval_strategy': 'epoch', 'eval_interval': 1000000, 'need_eval': False, 'eval_split_ratio': None, 'output_dir': '/data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_1', 'log_type': 'wandb', 'log_dir': '/data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_1', 'log_project': 'NLPDL', 'log_run_name': 'sft-2024-12-26-23-20-02', 'save_16bit': True, 'save_interval': 225, 'local_rank': 0, 'zero_stage': 3, 'offload': 'none', 'deepspeed': False, 'deepspeed_config': None, 'deepscale': False, 'deepscale_config': None, 'global_rank': 0, 'device': device(type='cuda', index=0), 'num_update_steps_per_epoch': 1, 'total_training_steps': 3}
+2024-12-26 23:20:03,216 INFO    MainThread:2564089 [wandb_init.py:init():669] starting backend
+2024-12-26 23:20:03,216 INFO    MainThread:2564089 [wandb_init.py:init():673] sending inform_init request
+2024-12-26 23:20:03,218 INFO    MainThread:2564089 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-12-26 23:20:03,218 INFO    MainThread:2564089 [wandb_init.py:init():686] backend started and connected
+2024-12-26 23:20:03,222 INFO    MainThread:2564089 [wandb_init.py:init():781] updated telemetry
+2024-12-26 23:20:03,235 INFO    MainThread:2564089 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-12-26 23:20:03,928 INFO    MainThread:2564089 [wandb_init.py:init():867] starting run threads in backend
+2024-12-26 23:20:04,597 INFO    MainThread:2564089 [wandb_run.py:_console_start():2456] atexit reg
+2024-12-26 23:20:04,597 INFO    MainThread:2564089 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-12-26 23:20:04,597 INFO    MainThread:2564089 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-12-26 23:20:04,597 INFO    MainThread:2564089 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-12-26 23:20:04,601 INFO    MainThread:2564089 [wandb_init.py:init():911] run started, returning control to user process
+2024-12-26 23:20:38,752 INFO    MainThread:2564089 [wandb_run.py:_finish():2155] finishing run htlou/NLPDL/02zvxuyb
+2024-12-26 23:20:38,753 INFO    MainThread:2564089 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-12-26 23:20:38,753 INFO    MainThread:2564089 [wandb_run.py:_restore():2402] restore
+2024-12-26 23:20:38,753 INFO    MainThread:2564089 [wandb_run.py:_restore():2408] restore done
+2024-12-26 23:20:41,599 INFO    MainThread:2564089 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-12-26 23:20:41,600 INFO    MainThread:2564089 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-12-26 23:20:41,607 INFO    MainThread:2564089 [wandb_run.py:_footer_sync_info():3921] logging synced files

@@ -1,0 +1,23 @@
+| Name | Safety Win Rate (%) | Utility Win Rate (%) |
+| --- | --- | --- |
+| preference_1_0_shot | -1.00 | 20.40 |
+| preference_2_0_shot | 0.60 | 24.20 |
+| preference_5_0_shot | -2.20 | 25.80 |
+| preference_10_0_shot | -3.80 | 23.80 |
+| preference_20_0_shot | 0.60 | 25.40 |
+| preference_50_0_shot | 0.00 | 22.00 |
+| preference_100_0_shot | -3.20 | 28.60 |
+| safety_1_shot | -8.20 | 39.80 |
+| safety_2_shot | 3.00 | 35.80 |
+| safety_5_shot | -15.80 | 38.40 |
+| safety_10_shot | -10.00 | 41.40 |
+| safety_20_shot | 34.20 | -84.80 |
+| safety_50_shot | 34.20 | -84.20 |
+| safety_100_shot | 34.20 | -85.60 |
+| safety_control_1_10 | -12.60 | 23.60 |
+| safety_control_2_10 | -6.20 | 21.60 |
+| safety_control_5_10 | -15.20 | 13.20 |
+| safety_control_10_10 | -2.80 | 27.80 |
+| safety_control_20_10 | -3.60 | 23.40 |
+| safety_control_50_10 | 1.80 | 9.00 |
+| safety_control_100_10 | -2.20 | 11.40 |

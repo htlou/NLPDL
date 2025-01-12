@@ -1,0 +1,2 @@
+{"time":"2024-12-26T23:17:43.671575544Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-26T23:17:43.671588291Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_1/wandb/run-20241226_231743-s6dwc6vx/logs/debug-core.log"}

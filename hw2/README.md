@@ -96,4 +96,4 @@ Analysis:
 
 Conclusion:
 
-From our experiment and theoretical analysis, we can conclude that PEFT is a more efficient way to finetune large models.
+From our experiment and theoretical analysis, we can conclude that PEFT is a more efficient way to finetune large models (both in terms of memory and FLOPs), though it may have some performance loss.
