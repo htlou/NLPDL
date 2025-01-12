@@ -43,7 +43,8 @@ with open(path, 'r') as f:
         data = json.loads(line)
         full_dataset.append(data)
 
-sizes = [1, 2, 5, 10, 20, 50, 100]
+# sizes = [1, 2, 5, 10, 20, 50, 100]
+sizes = [3, 7, 15]
 random.shuffle(full_dataset)
 
 # preference
