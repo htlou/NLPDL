@@ -82,8 +82,8 @@ def generate_answer_by_vllm(problems: list[str], model_name_or_path:str) ->list[
     )
     
     llm = LLM(model=model_name_or_path, 
-              gpu_memory_utilization=0.95, 
-              swap_space=32, 
+              gpu_memory_utilization=0.9, 
+              swap_space=16, 
               trust_remote_code=True, 
               tensor_parallel_size=8)
     model_name = model_name_or_path.split('/')[-1]

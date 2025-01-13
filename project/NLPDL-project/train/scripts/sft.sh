@@ -41,10 +41,10 @@ DEEPSPEED_ARGS+=("--master_port" "${MASTER_PORT}")
 
 exec 1> >(tee "${OUTPUT_DIR}/stdout.log" >&1) 2> >(tee "${OUTPUT_DIR}/stderr.log" >&2)
 
-TRAIN_DATASETS_ROOT="/data/align-anything/hantao/NLPDL/project/NLPDL-project/data/safety/processed"
+TRAIN_DATASETS_ROOT="/data/align-anything/hantao/NLPDL/project/NLPDL-project/data/processed"
 
-NUM_SHOTS=(1 2 5 10 20 50 100)
-
+# NUM_SHOTS=(1 2 5 10 20 50 100)
+NUM_SHOTS=(3 7 15)
 for NUM_SHOT in ${NUM_SHOTS[@]}; do
 	TRAIN_DATASETS="${TRAIN_DATASETS_ROOT}/supervised_train_${NUM_SHOT}.json"
 	OUTPUT_DIR="${ROOT_DIR}/output/sft/supervised_${NUM_SHOT}"

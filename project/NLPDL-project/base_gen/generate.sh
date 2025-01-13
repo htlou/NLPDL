@@ -1,7 +1,7 @@
 MODEL=/data/align-anything/hantao/models/alpaca-7b-reproduced
 INPUT_PATH=/data/align-anything/hantao/NLPDL/project/NLPDL-project/data/safety
 FEWSHOT_PATH=/data/align-anything/hantao/NLPDL/project/NLPDL-project/data/safety
-FEWSHOT_NUM=(20 50 100)
+FEWSHOT_NUM=(3 7 15)
 OUTPUT_ROOT=/data/align-anything/hantao/NLPDL/project/NLPDL-project/base_gen/outputs
 
 for num in ${FEWSHOT_NUM[@]}; do

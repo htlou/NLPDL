@@ -1,0 +1,20 @@
+{"time":"2025-01-12T13:56:33.095286491Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-01-12T13:56:33.09532423Z","level":"INFO","msg":"created symlink","path":"/data/align-anything/hantao/NLPDL/project/NLPDL-project/train/output/sft/supervised_15/wandb/run-20250112_135633-1q9r04ty/logs/debug-core.log"}
+{"time":"2025-01-12T13:56:33.097617315Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-01-12T13:56:33.116164597Z","level":"INFO","msg":"created new stream","id":"1q9r04ty"}
+{"time":"2025-01-12T13:56:33.116237415Z","level":"INFO","msg":"stream: started","id":"1q9r04ty"}
+{"time":"2025-01-12T13:56:33.116288369Z","level":"INFO","msg":"sender: started","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:56:33.116264935Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:56:33.11629066Z","level":"INFO","msg":"handler: started","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:56:33.710186807Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-01-12T13:56:33.716075178Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-12T13:57:06.836161268Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-12T13:57:06.840949396Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-12T13:57:07.125693199Z","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2025-01-12T13:57:07.125735116Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-01-12T13:57:07.883836244Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-12T13:57:09.387178834Z","level":"INFO","msg":"stream: closing","id":"1q9r04ty"}
+{"time":"2025-01-12T13:57:09.387219815Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:57:09.387269381Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:57:09.387321236Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"1q9r04ty"}}
+{"time":"2025-01-12T13:57:09.38926648Z","level":"INFO","msg":"stream: closed","id":"1q9r04ty"}
